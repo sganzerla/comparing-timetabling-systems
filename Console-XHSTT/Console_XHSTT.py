@@ -1,6 +1,14 @@
 import xml.etree.ElementTree as ET
 
-files = ["US-WS-09_soln1.xml", "AU-BG-98_soln.xml", "AU-BG-98_soln2.xml", "2014_08_19_KHE14x8_solns.xml", "khe14_solns.xml"]
+instances_khe = [
+    "./instances/KHE/2014_08_19_KHE14x8_solns.xml",    
+    "./instances/KHE/AU-BG-98_soln.xml", 
+    "./instances/KHE/AU-BG-98_soln2.xml", 
+    "./instances/KHE/2014_08_19_KHE14x8_solns.xml", 
+    "./instances/KHE/khe14_solns.xml"
+    ]
+
+files = instances_khe
 filters = ["Times", "Resources", "Events", "Constraints"]
 
 def parse_xml(xml_file):

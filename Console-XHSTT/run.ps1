@@ -1,1 +1,1 @@
-python '.\Console_XHSTT.py'
+python './Console_XHSTT.py'
