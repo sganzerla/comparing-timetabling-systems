@@ -30,3 +30,19 @@ Por enquanto a saída é essa aqui
 
     Total number of Constraints : 1
     ----------------------------------------------------
+
+## Modelo de dados
+
+O formato básico conta com 4 entidades principais:
+
+    * Times
+    * Resources
+    * Events
+    * Contraints
+
+Extraindo através de instâncias XML para classes em python observa-se pequenas diferenças entre os modelos obtidos.
+
+## TODO
+
+    * [ ] fazer uma tabela com as propriedades das entidades base (Times, Resources, Events, Constraints) e relacionar com as instâncias que possuem elas.
+    * [ ] identificar o padrão estabelecido de propriedades de cada classe.
