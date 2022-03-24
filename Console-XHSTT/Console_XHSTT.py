@@ -20,12 +20,10 @@ instances_tu = [
 files = instances_khe + instances_tu
 filters = ["Times", "Resources", "Events", "Constraints"]
 
-
 def parse_xml(xml_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
     return root
-
 
 def print_child_by_filter(xml_root, filter, print_all=False):
     children = 0
@@ -37,7 +35,6 @@ def print_child_by_filter(xml_root, filter, print_all=False):
         children += 1
     print("\nTotal number of", filter, ":", children)
 
-
 def main():
     for file in files:
         print("\nFile:", file)
@@ -45,7 +42,6 @@ def main():
         for filter in filters:
             print_child_by_filter(root, filter)
         print("----------------------------------------------------")
-
 
 if __name__ == "__main__":
     main()

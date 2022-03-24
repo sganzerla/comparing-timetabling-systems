@@ -1,32 +1,31 @@
-from typing import Optional, List, Union
-from enum import Enum
+from typing import Optional, List
 
 
-class Course:
+class EventGroup:
     reference: str
 
     def __init__(self, reference: str) -> None:
         self.reference = reference
 
 
-class EventEventGroups:
-    event_group: Course
+class PurpleEventGroups:
+    event_group: EventGroup
 
-    def __init__(self, event_group: Course) -> None:
+    def __init__(self, event_group: EventGroup) -> None:
         self.event_group = event_group
 
 
 class AssignTimeConstraintAppliesTo:
-    event_groups: EventEventGroups
+    event_groups: PurpleEventGroups
 
-    def __init__(self, event_groups: EventEventGroups) -> None:
+    def __init__(self, event_groups: PurpleEventGroups) -> None:
         self.event_groups = event_groups
 
 
 class AssignTimeConstraintTimeGroups:
-    time_group: Course
+    time_group: EventGroup
 
-    def __init__(self, time_group: Course) -> None:
+    def __init__(self, time_group: EventGroup) -> None:
         self.time_group = time_group
 
 
@@ -52,9 +51,9 @@ class Constraint:
 
 
 class PurpleResourceGroups:
-    resource_group: List[Course]
+    resource_group: List[EventGroup]
 
-    def __init__(self, resource_group: List[Course]) -> None:
+    def __init__(self, resource_group: List[EventGroup]) -> None:
         self.resource_group = resource_group
 
 
@@ -83,9 +82,9 @@ class AvoidClashesConstraint:
 
 
 class PurpleResources:
-    resource: Course
+    resource: EventGroup
 
-    def __init__(self, resource: Course) -> None:
+    def __init__(self, resource: EventGroup) -> None:
         self.resource = resource
 
 
@@ -96,10 +95,10 @@ class AvoidUnavailableTimesConstraintAppliesTo:
         self.resources = resources
 
 
-class AvoidUnavailableTimesConstraintTimes:
-    time: List[Course]
+class Times:
+    time: List[EventGroup]
 
-    def __init__(self, time: List[Course]) -> None:
+    def __init__(self, time: List[EventGroup]) -> None:
         self.time = time
 
 
@@ -109,10 +108,10 @@ class AvoidUnavailableTimesConstraint:
     weight: int
     cost_function: str
     applies_to: AvoidUnavailableTimesConstraintAppliesTo
-    times: AvoidUnavailableTimesConstraintTimes
+    times: Times
     id: str
 
-    def __init__(self, name: str, required: bool, weight: int, cost_function: str, applies_to: AvoidUnavailableTimesConstraintAppliesTo, times: AvoidUnavailableTimesConstraintTimes, id: str) -> None:
+    def __init__(self, name: str, required: bool, weight: int, cost_function: str, applies_to: AvoidUnavailableTimesConstraintAppliesTo, times: Times, id: str) -> None:
         self.name = name
         self.required = required
         self.weight = weight
@@ -123,9 +122,9 @@ class AvoidUnavailableTimesConstraint:
 
 
 class FluffyResources:
-    resource: List[Course]
+    resource: List[EventGroup]
 
-    def __init__(self, resource: List[Course]) -> None:
+    def __init__(self, resource: List[EventGroup]) -> None:
         self.resource = resource
 
 
@@ -137,9 +136,9 @@ class ClusterBusyTimesConstraintAppliesTo:
 
 
 class ClusterBusyTimesConstraintTimeGroups:
-    time_group: List[Course]
+    time_group: List[EventGroup]
 
-    def __init__(self, time_group: List[Course]) -> None:
+    def __init__(self, time_group: List[EventGroup]) -> None:
         self.time_group = time_group
 
 
@@ -166,17 +165,17 @@ class ClusterBusyTimesConstraint:
         self.id = id
 
 
-class PurpleEventGroups:
-    event_group: List[Course]
+class FluffyEventGroups:
+    event_group: List[EventGroup]
 
-    def __init__(self, event_group: List[Course]) -> None:
+    def __init__(self, event_group: List[EventGroup]) -> None:
         self.event_group = event_group
 
 
 class DistributeSplitEventsConstraintAppliesTo:
-    event_groups: PurpleEventGroups
+    event_groups: FluffyEventGroups
 
-    def __init__(self, event_groups: PurpleEventGroups) -> None:
+    def __init__(self, event_groups: FluffyEventGroups) -> None:
         self.event_groups = event_groups
 
 
@@ -203,17 +202,17 @@ class DistributeSplitEventsConstraint:
         self.id = id
 
 
-class ResourceResourceGroups:
-    resource_group: Course
+class FluffyResourceGroups:
+    resource_group: EventGroup
 
-    def __init__(self, resource_group: Course) -> None:
+    def __init__(self, resource_group: EventGroup) -> None:
         self.resource_group = resource_group
 
 
 class LimitIdleTimesConstraintAppliesTo:
-    resource_groups: ResourceResourceGroups
+    resource_groups: FluffyResourceGroups
 
-    def __init__(self, resource_groups: ResourceResourceGroups) -> None:
+    def __init__(self, resource_groups: FluffyResourceGroups) -> None:
         self.resource_groups = resource_groups
 
 
@@ -324,253 +323,3 @@ class Constraints:
         self.limit_idle_times_constraint = limit_idle_times_constraint
         self.cluster_busy_times_constraint = cluster_busy_times_constraint
 
-
-class Role(Enum):
-    CLASS = "Class"
-    TEACHER = "Teacher"
-
-
-class Resource:
-    role: Role
-    resource_type: Course
-    reference: str
-
-    def __init__(self, role: Role, resource_type: Course, reference: str) -> None:
-        self.role = role
-        self.resource_type = resource_type
-        self.reference = reference
-
-
-class EventResources:
-    resource: List[Resource]
-
-    def __init__(self, resource: List[Resource]) -> None:
-        self.resource = resource
-
-
-class PurpleEvent:
-    name: str
-    duration: int
-    course: Course
-    resources: EventResources
-    event_groups: EventEventGroups
-    id: str
-
-    def __init__(self, name: str, duration: int, course: Course, resources: EventResources, event_groups: EventEventGroups, id: str) -> None:
-        self.name = name
-        self.duration = duration
-        self.course = course
-        self.resources = resources
-        self.event_groups = event_groups
-        self.id = id
-
-
-class EventGroup:
-    name: str
-    id: str
-
-    def __init__(self, name: str, id: str) -> None:
-        self.name = name
-        self.id = id
-
-
-class EventsEventGroups:
-    course: List[EventGroup]
-    event_group: EventGroup
-
-    def __init__(self, course: List[EventGroup], event_group: EventGroup) -> None:
-        self.course = course
-        self.event_group = event_group
-
-
-class InstanceEvents:
-    event_groups: EventsEventGroups
-    event: List[PurpleEvent]
-
-    def __init__(self, event_groups: EventsEventGroups, event: List[PurpleEvent]) -> None:
-        self.event_groups = event_groups
-        self.event = event
-
-
-class InstanceMetaData:
-    name: str
-    contributor: str
-    date: str
-    country: str
-    description: str
-    remarks: str
-
-    def __init__(self, name: str, contributor: str, date: str, country: str, description: str, remarks: str) -> None:
-        self.name = name
-        self.contributor = contributor
-        self.date = date
-        self.country = country
-        self.description = description
-        self.remarks = remarks
-
-
-class ResourceGroupElement:
-    name: str
-    resource_type: Course
-    resource_groups: Optional[ResourceResourceGroups]
-    id: str
-
-    def __init__(self, name: str, resource_type: Course, resource_groups: Optional[ResourceResourceGroups], id: str) -> None:
-        self.name = name
-        self.resource_type = resource_type
-        self.resource_groups = resource_groups
-        self.id = id
-
-
-class ResourcesResourceGroups:
-    resource_group: List[ResourceGroupElement]
-
-    def __init__(self, resource_group: List[ResourceGroupElement]) -> None:
-        self.resource_group = resource_group
-
-
-class ResourceTypes:
-    resource_type: List[EventGroup]
-
-    def __init__(self, resource_type: List[EventGroup]) -> None:
-        self.resource_type = resource_type
-
-
-class InstanceResources:
-    resource_types: ResourceTypes
-    resource_groups: ResourcesResourceGroups
-    resource: List[ResourceGroupElement]
-
-    def __init__(self, resource_types: ResourceTypes, resource_groups: ResourcesResourceGroups, resource: List[ResourceGroupElement]) -> None:
-        self.resource_types = resource_types
-        self.resource_groups = resource_groups
-        self.resource = resource
-
-
-class Time:
-    name: str
-    day: Course
-    time_groups: Union[AssignTimeConstraintTimeGroups, str]
-    id: str
-
-    def __init__(self, name: str, day: Course, time_groups: Union[AssignTimeConstraintTimeGroups, str], id: str) -> None:
-        self.name = name
-        self.day = day
-        self.time_groups = time_groups
-        self.id = id
-
-
-class TimesTimeGroups:
-    day: List[EventGroup]
-    time_group: EventGroup
-
-    def __init__(self, day: List[EventGroup], time_group: EventGroup) -> None:
-        self.day = day
-        self.time_group = time_group
-
-
-class InstanceTimes:
-    time_groups: TimesTimeGroups
-    time: List[Time]
-
-    def __init__(self, time_groups: TimesTimeGroups, time: List[Time]) -> None:
-        self.time_groups = time_groups
-        self.time = time
-
-
-class Instance:
-    meta_data: InstanceMetaData
-    times: InstanceTimes
-    resources: InstanceResources
-    events: InstanceEvents
-    constraints: Constraints
-    id: str
-
-    def __init__(self, meta_data: InstanceMetaData, times: InstanceTimes, resources: InstanceResources, events: InstanceEvents, constraints: Constraints, id: str) -> None:
-        self.meta_data = meta_data
-        self.times = times
-        self.resources = resources
-        self.events = events
-        self.constraints = constraints
-        self.id = id
-
-
-class Instances:
-    instance: Instance
-
-    def __init__(self, instance: Instance) -> None:
-        self.instance = instance
-
-
-class SolutionGroupMetaData:
-    contributor: str
-    date: str
-    description: str
-
-    def __init__(self, contributor: str, date: str, description: str) -> None:
-        self.contributor = contributor
-        self.date = date
-        self.description = description
-
-
-class FluffyEvent:
-    duration: int
-    time: Course
-    reference: str
-
-    def __init__(self, duration: int, time: Course, reference: str) -> None:
-        self.duration = duration
-        self.time = time
-        self.reference = reference
-
-
-class SolutionEvents:
-    event: List[FluffyEvent]
-
-    def __init__(self, event: List[FluffyEvent]) -> None:
-        self.event = event
-
-
-class Solution:
-    events: SolutionEvents
-    reference: str
-    description: Optional[str]
-
-    def __init__(self, events: SolutionEvents, reference: str, description: Optional[str]) -> None:
-        self.events = events
-        self.reference = reference
-        self.description = description
-
-
-class SolutionGroup:
-    meta_data: SolutionGroupMetaData
-    solution: Solution
-    id: str
-
-    def __init__(self, meta_data: SolutionGroupMetaData, solution: Solution, id: str) -> None:
-        self.meta_data = meta_data
-        self.solution = solution
-        self.id = id
-
-
-class SolutionGroups:
-    solution_group: List[SolutionGroup]
-
-    def __init__(self, solution_group: List[SolutionGroup]) -> None:
-        self.solution_group = solution_group
-
-
-class HighSchoolTimetableArchive:
-    instances: Instances
-    solution_groups: SolutionGroups
-
-    def __init__(self, instances: Instances, solution_groups: SolutionGroups) -> None:
-        self.instances = instances
-        self.solution_groups = solution_groups
-
-
-class Welcome2:
-    high_school_timetable_archive: HighSchoolTimetableArchive
-
-    def __init__(self, high_school_timetable_archive: HighSchoolTimetableArchive) -> None:
-        self.high_school_timetable_archive = high_school_timetable_archive
