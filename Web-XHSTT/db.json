@@ -1,0 +1,4901 @@
+{
+    "Instances": {
+       "Instance": {
+          "@Id": "ItalyInstance1_XHSTT-v2014",
+          "MetaData": {
+             "Name": "ItalyInstance1",
+             "Contributor": "Andrea Schaerf and Gerhard Post",
+             "Date": "14/01/2010 14:25:50",
+             "Country": "Italy",
+             "Description": "Dataset created from a fragment of a real case by Andrea Schaerf."
+          },
+          "Times": {
+             "TimeGroups": {
+                "Day": [
+                   {
+                      "@Id": "gr_Mon",
+                      "Name": "Mon"
+                   },
+                   {
+                      "@Id": "gr_Tue",
+                      "Name": "Tue"
+                   },
+                   {
+                      "@Id": "gr_Wed",
+                      "Name": "Wed"
+                   },
+                   {
+                      "@Id": "gr_Thu",
+                      "Name": "Thu"
+                   },
+                   {
+                      "@Id": "gr_Fri",
+                      "Name": "Fri"
+                   },
+                   {
+                      "@Id": "gr_Sat",
+                      "Name": "Sat"
+                   }
+                ],
+                "TimeGroup": [
+                   {
+                      "@Id": "gr_TimesDurationTwo",
+                      "Name": "TimesDurationTwo"
+                   },
+                   {
+                      "@Id": "gr_LastTimes",
+                      "Name": "Last times of day"
+                   },
+                   {
+                      "@Id": "gr_Mon_1",
+                      "Name": "Group Mon 1"
+                   },
+                   {
+                      "@Id": "gr_Mon_2",
+                      "Name": "Group Mon 2"
+                   },
+                   {
+                      "@Id": "gr_Mon_3",
+                      "Name": "Group Mon 3"
+                   },
+                   {
+                      "@Id": "gr_Mon_4",
+                      "Name": "Group Mon 4"
+                   },
+                   {
+                      "@Id": "gr_Tue_1",
+                      "Name": "Group Tue 1"
+                   },
+                   {
+                      "@Id": "gr_Tue_2",
+                      "Name": "Group Tue 2"
+                   },
+                   {
+                      "@Id": "gr_Tue_3",
+                      "Name": "Group Tue 3"
+                   },
+                   {
+                      "@Id": "gr_Tue_4",
+                      "Name": "Group Tue 4"
+                   },
+                   {
+                      "@Id": "gr_Wed_1",
+                      "Name": "Group Wed 1"
+                   },
+                   {
+                      "@Id": "gr_Wed_2",
+                      "Name": "Group Wed 2"
+                   },
+                   {
+                      "@Id": "gr_Wed_3",
+                      "Name": "Group Wed 3"
+                   },
+                   {
+                      "@Id": "gr_Wed_4",
+                      "Name": "Group Wed 4"
+                   },
+                   {
+                      "@Id": "gr_Thu_1",
+                      "Name": "Group Thu 1"
+                   },
+                   {
+                      "@Id": "gr_Thu_2",
+                      "Name": "Group Thu 2"
+                   },
+                   {
+                      "@Id": "gr_Thu_3",
+                      "Name": "Group Thu 3"
+                   },
+                   {
+                      "@Id": "gr_Thu_4",
+                      "Name": "Group Thu 4"
+                   },
+                   {
+                      "@Id": "gr_Fri_1",
+                      "Name": "Group Fri 1"
+                   },
+                   {
+                      "@Id": "gr_Fri_2",
+                      "Name": "Group Fri 2"
+                   },
+                   {
+                      "@Id": "gr_Fri_3",
+                      "Name": "Group Fri 3"
+                   },
+                   {
+                      "@Id": "gr_Fri_4",
+                      "Name": "Group Fri 4"
+                   },
+                   {
+                      "@Id": "gr_Sat_1",
+                      "Name": "Group Sat 1"
+                   },
+                   {
+                      "@Id": "gr_Sat_2",
+                      "Name": "Group Sat 2"
+                   },
+                   {
+                      "@Id": "gr_Sat_3",
+                      "Name": "Group Sat 3"
+                   },
+                   {
+                      "@Id": "gr_Sat_4",
+                      "Name": "Group Sat 4"
+                   }
+                ]
+             },
+             "Time": [
+                {
+                   "@Id": "Mon_1",
+                   "Name": "Mon_1",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Mon_2",
+                   "Name": "Mon_2",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Mon_3",
+                   "Name": "Mon_3",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Mon_4",
+                   "Name": "Mon_4",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Mon_5",
+                   "Name": "Mon_5",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Mon_6",
+                   "Name": "Mon_6",
+                   "Day": {
+                      "@Reference": "gr_Mon"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Tue_1",
+                   "Name": "Tue_1",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Tue_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Tue_2",
+                   "Name": "Tue_2",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Tue_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Tue_3",
+                   "Name": "Tue_3",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Tue_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Tue_4",
+                   "Name": "Tue_4",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Tue_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Tue_5",
+                   "Name": "Tue_5",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Tue_6",
+                   "Name": "Tue_6",
+                   "Day": {
+                      "@Reference": "gr_Tue"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Wed_1",
+                   "Name": "Wed_1",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Wed_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Wed_2",
+                   "Name": "Wed_2",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Wed_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Wed_3",
+                   "Name": "Wed_3",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Wed_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Wed_4",
+                   "Name": "Wed_4",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Wed_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Wed_5",
+                   "Name": "Wed_5",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Wed_6",
+                   "Name": "Wed_6",
+                   "Day": {
+                      "@Reference": "gr_Wed"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Thu_1",
+                   "Name": "Thu_1",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Thu_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Thu_2",
+                   "Name": "Thu_2",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Thu_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Thu_3",
+                   "Name": "Thu_3",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Thu_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Thu_4",
+                   "Name": "Thu_4",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Thu_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Thu_5",
+                   "Name": "Thu_5",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Thu_6",
+                   "Name": "Thu_6",
+                   "Day": {
+                      "@Reference": "gr_Thu"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Fri_1",
+                   "Name": "Fri_1",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Fri_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Fri_2",
+                   "Name": "Fri_2",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Fri_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Fri_3",
+                   "Name": "Fri_3",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Fri_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Fri_4",
+                   "Name": "Fri_4",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Fri_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Fri_5",
+                   "Name": "Fri_5",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Fri_6",
+                   "Name": "Fri_6",
+                   "Day": {
+                      "@Reference": "gr_Fri"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Sat_1",
+                   "Name": "Sat_1",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Sat_1"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Sat_2",
+                   "Name": "Sat_2",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Sat_2"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Sat_3",
+                   "Name": "Sat_3",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Sat_3"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Sat_4",
+                   "Name": "Sat_4",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Sat_4"
+                      },
+                      {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Sat_5",
+                   "Name": "Sat_5",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_TimesDurationTwo"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Sat_6",
+                   "Name": "Sat_6",
+                   "Day": {
+                      "@Reference": "gr_Sat"
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   }
+                }
+             ]
+          },
+          "Resources": {
+             "ResourceTypes": [
+                {
+                   "@Id": "Teacher",
+                   "Name": "Teacher"
+                },
+                {
+                   "@Id": "Class",
+                   "Name": "Class"
+                }
+             ],
+             "ResourceGroups": [
+                {
+                   "@Id": "gr_Teachers",
+                   "Name": "allTeachers",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   }
+                },
+                {
+                   "@Id": "gr_Classes",
+                   "Name": "allClasses",
+                   "ResourceType": {
+                      "@Reference": "Class"
+                   }
+                }
+             ],
+             "Resource": [
+                {
+                   "@Id": "Rossi",
+                   "Name": "Rossi",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Bianchi",
+                   "Name": "Bianchi",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Neri",
+                   "Name": "Neri",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Verdi",
+                   "Name": "Verdi",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Marroni",
+                   "Name": "Marroni",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Gialli",
+                   "Name": "Gialli",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Azzurri",
+                   "Name": "Azzurri",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Celesti",
+                   "Name": "Celesti",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Viola",
+                   "Name": "Viola",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Arancioni",
+                   "Name": "Arancioni",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Ocra",
+                   "Name": "Ocra",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Grigi",
+                   "Name": "Grigi",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Scarlatti",
+                   "Name": "Scarlatti",
+                   "ResourceType": {
+                      "@Reference": "Teacher"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                {
+                   "@Id": "3A",
+                   "Name": "3A",
+                   "ResourceType": {
+                      "@Reference": "Class"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Classes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "4A",
+                   "Name": "4A",
+                   "ResourceType": {
+                      "@Reference": "Class"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Classes"
+                      }
+                   }
+                },
+                {
+                   "@Id": "5A",
+                   "Name": "5A",
+                   "ResourceType": {
+                      "@Reference": "Class"
+                   },
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Classes"
+                      }
+                   }
+                }
+             ]
+          },
+          "Events": {
+             "EventGroups": {
+                "Course": [
+                   {
+                      "@Id": "gr_DI-3A",
+                      "Name": "DI-3A"
+                   },
+                   {
+                      "@Id": "gr_FR-3A",
+                      "Name": "FR-3A"
+                   },
+                   {
+                      "@Id": "gr_GI-3A",
+                      "Name": "GI-3A"
+                   },
+                   {
+                      "@Id": "gr_IN-3A",
+                      "Name": "IN-3A"
+                   },
+                   {
+                      "@Id": "gr_IT-3A",
+                      "Name": "IT-3A"
+                   },
+                   {
+                      "@Id": "gr_MA-3A",
+                      "Name": "MA-3A"
+                   },
+                   {
+                      "@Id": "gr_RA-3A",
+                      "Name": "RA-3A"
+                   },
+                   {
+                      "@Id": "gr_RE-3A",
+                      "Name": "RE-3A"
+                   },
+                   {
+                      "@Id": "gr_SC-3A",
+                      "Name": "SC-3A"
+                   },
+                   {
+                      "@Id": "gr_TE-3A",
+                      "Name": "TE-3A"
+                   },
+                   {
+                      "@Id": "gr_DI-4A",
+                      "Name": "DI-4A"
+                   },
+                   {
+                      "@Id": "gr_GI-4A",
+                      "Name": "GI-4A"
+                   },
+                   {
+                      "@Id": "gr_IN-4A",
+                      "Name": "IN-4A"
+                   },
+                   {
+                      "@Id": "gr_IT-4A",
+                      "Name": "IT-4A"
+                   },
+                   {
+                      "@Id": "gr_MA-4A",
+                      "Name": "MA-4A"
+                   },
+                   {
+                      "@Id": "gr_RA-4A",
+                      "Name": "RA-4A"
+                   },
+                   {
+                      "@Id": "gr_RE-4A",
+                      "Name": "RE-4A"
+                   },
+                   {
+                      "@Id": "gr_SC-4A",
+                      "Name": "SC-4A"
+                   },
+                   {
+                      "@Id": "gr_TE-4A",
+                      "Name": "TE-4A"
+                   },
+                   {
+                      "@Id": "gr_GI-5A",
+                      "Name": "GI-5A"
+                   },
+                   {
+                      "@Id": "gr_DI-5A",
+                      "Name": "DI-5A"
+                   },
+                   {
+                      "@Id": "gr_IN-5A",
+                      "Name": "IN-5A"
+                   },
+                   {
+                      "@Id": "gr_IT-5A",
+                      "Name": "IT-5A"
+                   },
+                   {
+                      "@Id": "gr_MA-5A",
+                      "Name": "MA-5A"
+                   },
+                   {
+                      "@Id": "gr_RA-5A",
+                      "Name": "RA-5A"
+                   },
+                   {
+                      "@Id": "gr_RE-5A",
+                      "Name": "RE-5A"
+                   },
+                   {
+                      "@Id": "gr_SC-5A",
+                      "Name": "SC-5A"
+                   },
+                   {
+                      "@Id": "gr_TE-5A",
+                      "Name": "TE-5A"
+                   },
+                   {
+                      "@Id": "gr_Ros-DD",
+                      "Name": "Ros-DD"
+                   },
+                   {
+                      "@Id": "gr_Bia-DD",
+                      "Name": "Bia-DD"
+                   },
+                   {
+                      "@Id": "gr_Ner-DD",
+                      "Name": "Ner-DD"
+                   },
+                   {
+                      "@Id": "gr_Ver-DD",
+                      "Name": "Ver-DD"
+                   },
+                   {
+                      "@Id": "gr_Mar-DD",
+                      "Name": "Mar-DD"
+                   },
+                   {
+                      "@Id": "gr_Gia-DD",
+                      "Name": "Gia-DD"
+                   },
+                   {
+                      "@Id": "gr_Azz-DD",
+                      "Name": "Azz-DD"
+                   },
+                   {
+                      "@Id": "gr_Cel-DD",
+                      "Name": "Cel-DD"
+                   },
+                   {
+                      "@Id": "gr_Vio-DD",
+                      "Name": "Vio-DD"
+                   },
+                   {
+                      "@Id": "gr_Ara-DD",
+                      "Name": "Ara-DD"
+                   },
+                   {
+                      "@Id": "gr_Ocr-DD",
+                      "Name": "Ocr-DD"
+                   },
+                   {
+                      "@Id": "gr_Gri-DD",
+                      "Name": "Gri-DD"
+                   },
+                   {
+                      "@Id": "gr_Sca-DD",
+                      "Name": "Sca-DD"
+                   }
+                ],
+                "EventGroup": [
+                   {
+                      "@Id": "gr_AllEvents",
+                      "Name": "AllEvents"
+                   },
+                   {
+                      "@Id": "gr_schoolEvents",
+                      "Name": "SchoolEventsSubstitute"
+                   },
+                   {
+                      "@Id": "gr_GI-4A-5A",
+                      "Name": "GI-4A-5A"
+                   }
+                ]
+             },
+             "Event": [
+                {
+                   "@Id": "DI-3A",
+                   "Name": "DI-3A",
+                   "Duration": "6",
+                   "Course": {
+                      "@Reference": "gr_DI-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Marroni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "FR-3A",
+                   "Name": "FR-3A",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_FR-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Arancioni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "GI-3A",
+                   "Name": "GI-3A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_GI-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Ocra",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IN-3A",
+                   "Name": "IN-3A",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_IN-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Verdi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IT-3A",
+                   "Name": "IT-3A",
+                   "Duration": "5",
+                   "Course": {
+                      "@Reference": "gr_IT-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Celesti",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "MA-3A",
+                   "Name": "MA-3A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_MA-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Azzurri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RA-3A",
+                   "Name": "RA-3A",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_RA-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Grigi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RE-3A",
+                   "Name": "RE-3A",
+                   "Duration": "1",
+                   "Course": {
+                      "@Reference": "gr_RE-3A"
+                   },
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Gialli",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ]
+                },
+                {
+                   "@Id": "SC-3A",
+                   "Name": "SC-3A",
+                   "Duration": "4",
+                   "Course": {
+                      "@Reference": "gr_SC-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Bianchi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "TE-3A",
+                   "Name": "TE-3A",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_TE-3A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "3A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Neri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "DI-4A",
+                   "Name": "DI-4A",
+                   "Duration": "6",
+                   "Course": {
+                      "@Reference": "gr_DI-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Marroni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "GI-4A",
+                   "Name": "GI-4A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_GI-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class1",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Scarlatti",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      },
+                      {
+                         "@Reference": "Ocra",
+                         "Role": "Copresence",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_GI-4A-5A"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "IN-4A",
+                   "Name": "IN-4A",
+                   "Duration": "1",
+                   "Course": {
+                      "@Reference": "gr_IN-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Verdi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IN-4A1",
+                   "Name": "IN-4A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_IN-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Verdi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      },
+                      {
+                         "@Reference": "Arancioni",
+                         "Role": "CoPresence",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IT-4A",
+                   "Name": "IT-4A",
+                   "Duration": "5",
+                   "Course": {
+                      "@Reference": "gr_IT-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Viola",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "MA-4A",
+                   "Name": "MA-4A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_MA-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Azzurri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RA-4A",
+                   "Name": "RA-4A",
+                   "Duration": "5",
+                   "Course": {
+                      "@Reference": "gr_RA-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Grigi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RE-4A",
+                   "Name": "RE-4A",
+                   "Duration": "1",
+                   "Course": {
+                      "@Reference": "gr_RE-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Gialli",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "SC-4A",
+                   "Name": "SC-4A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_SC-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Bianchi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "TE-4A",
+                   "Name": "TE-4A",
+                   "Duration": "4",
+                   "Course": {
+                      "@Reference": "gr_TE-4A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "4A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Neri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "GI-5A",
+                   "Name": "GI-5A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_GI-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Rossi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_GI-4A-5A"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "DI-5A",
+                   "Name": "DI-5A",
+                   "Duration": "6",
+                   "Course": {
+                      "@Reference": "gr_DI-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Marroni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IN-5A",
+                   "Name": "IN-5A",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_IN-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Verdi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "IT-5A",
+                   "Name": "IT-5A",
+                   "Duration": "5",
+                   "Course": {
+                      "@Reference": "gr_IT-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Viola",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "MA-5A",
+                   "Name": "MA-5A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_MA-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Azzurri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RA-5A",
+                   "Name": "RA-5A",
+                   "Duration": "6",
+                   "Course": {
+                      "@Reference": "gr_RA-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Grigi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "RE-5A",
+                   "Name": "RE-5A",
+                   "Duration": "1",
+                   "Course": {
+                      "@Reference": "gr_RE-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Gialli",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "SC-5A",
+                   "Name": "SC-5A",
+                   "Duration": "2",
+                   "Course": {
+                      "@Reference": "gr_SC-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Bianchi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "TE-5A",
+                   "Name": "TE-5A",
+                   "Duration": "5",
+                   "Course": {
+                      "@Reference": "gr_TE-5A"
+                   },
+                   "Resources": [
+                      {
+                         "@Reference": "5A",
+                         "Role": "Class",
+                         "ResourceType": {
+                            "@Reference": "Class"
+                         }
+                      },
+                      {
+                         "@Reference": "Neri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   ],
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                {
+                   "@Id": "Ros-DD",
+                   "Name": "Ros-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Ros-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Rossi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Bia-DD",
+                   "Name": "Bia-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Bia-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Bianchi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Ner-DD",
+                   "Name": "Ner-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Ner-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Neri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Ver-DD",
+                   "Name": "Ver-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Ver-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Verdi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Mar-DD",
+                   "Name": "Mar-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Mar-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Marroni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Gia-DD",
+                   "Name": "Gia-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Gia-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Gialli",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Azz-DD",
+                   "Name": "Azz-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Azz-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Azzurri",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Cel-DD",
+                   "Name": "Cel-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Cel-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Celesti",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Vio-DD",
+                   "Name": "Vio-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Vio-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Viola",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Ara-DD",
+                   "Name": "Ara-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Ara-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Arancioni",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Ocr-DD",
+                   "Name": "Ocr-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Ocr-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Ocra",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Gri-DD",
+                   "Name": "Gri-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Gri-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Grigi",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "Sca-DD",
+                   "Name": "Sca-DD",
+                   "Duration": "3",
+                   "Course": {
+                      "@Reference": "gr_Sca-DD"
+                   },
+                   "Resources": {
+                      "Resource": {
+                         "@Reference": "Scarlatti",
+                         "Role": "Teacher",
+                         "ResourceType": {
+                            "@Reference": "Teacher"
+                         }
+                      }
+                   },
+                   "EventGroups": [
+                      {
+                         "@Reference": "gr_AllEvents"
+                      },
+                      {
+                         "@Reference": "gr_schoolEvents"
+                      }
+                   ]
+                }
+             ]
+          },
+          "Constraints": {
+             "AssignTimeConstraint": {
+                "@Id": "AssignTimes_1",
+                "Name": "AssignTimes",
+                "Required": "true",
+                "Weight": "1",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                }
+             },
+             "SplitEventsConstraint": {
+                "@Id": "SplitEventsConstraint_1",
+                "Name": "Split to duration 1 and 2",
+                "Required": "true",
+                "Weight": "1",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                "MinimumDuration": "1",
+                "MaximumDuration": "2",
+                "MinimumAmount": "1",
+                "MaximumAmount": "999"
+             },
+             "PreferTimesConstraint": {
+                "@Id": "PreferredTimes_2",
+                "Name": "PreferredTimesDurationTwo",
+                "Required": "true",
+                "Weight": "2",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_AllEvents"
+                      }
+                   }
+                },
+                "TimeGroups": {
+                   "TimeGroup": {
+                      "@Reference": "gr_TimesDurationTwo"
+                   }
+                },
+                "Duration": "2"
+             },
+             "SpreadEventsConstraint": [
+                {
+                   "@Id": "SpreadEvents_1",
+                   "Name": "At most one event per day",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "EventGroups": [
+                         {
+                            "@Reference": "gr_FR-3A"
+                         },
+                         {
+                            "@Reference": "gr_IN-3A"
+                         },
+                         {
+                            "@Reference": "gr_MA-3A"
+                         },
+                         {
+                            "@Reference": "gr_RA-3A"
+                         },
+                         {
+                            "@Reference": "gr_TE-3A"
+                         },
+                         {
+                            "@Reference": "gr_IN-4A"
+                         },
+                         {
+                            "@Reference": "gr_MA-4A"
+                         },
+                         {
+                            "@Reference": "gr_SC-4A"
+                         },
+                         {
+                            "@Reference": "gr_IN-5A"
+                         },
+                         {
+                            "@Reference": "gr_MA-5A"
+                         },
+                         {
+                            "@Reference": "gr_SC-5A"
+                         }
+                      ]
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      },
+                      {
+                         "@Reference": "gr_Tue",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      },
+                      {
+                         "@Reference": "gr_Wed",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      },
+                      {
+                         "@Reference": "gr_Thu",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      },
+                      {
+                         "@Reference": "gr_Fri",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      },
+                      {
+                         "@Reference": "gr_Sat",
+                         "Minimum": "0",
+                         "Maximum": "1"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "SpreadEvents_2",
+                   "Name": "At most two events per day",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "EventGroups": [
+                         {
+                            "@Reference": "gr_DI-3A"
+                         },
+                         {
+                            "@Reference": "gr_GI-3A"
+                         },
+                         {
+                            "@Reference": "gr_SC-3A"
+                         },
+                         {
+                            "@Reference": "gr_DI-4A"
+                         },
+                         {
+                            "@Reference": "gr_GI-4A"
+                         },
+                         {
+                            "@Reference": "gr_IT-4A"
+                         },
+                         {
+                            "@Reference": "gr_RA-4A"
+                         },
+                         {
+                            "@Reference": "gr_TE-4A"
+                         },
+                         {
+                            "@Reference": "gr_GI-5A"
+                         },
+                         {
+                            "@Reference": "gr_DI-5A"
+                         },
+                         {
+                            "@Reference": "gr_IT-5A"
+                         },
+                         {
+                            "@Reference": "gr_RA-5A"
+                         },
+                         {
+                            "@Reference": "gr_TE-5A"
+                         },
+                         {
+                            "@Reference": "gr_Ros-DD"
+                         },
+                         {
+                            "@Reference": "gr_Bia-DD"
+                         },
+                         {
+                            "@Reference": "gr_Ner-DD"
+                         },
+                         {
+                            "@Reference": "gr_Ver-DD"
+                         },
+                         {
+                            "@Reference": "gr_Mar-DD"
+                         },
+                         {
+                            "@Reference": "gr_Gia-DD"
+                         },
+                         {
+                            "@Reference": "gr_Azz-DD"
+                         },
+                         {
+                            "@Reference": "gr_Cel-DD"
+                         },
+                         {
+                            "@Reference": "gr_Vio-DD"
+                         },
+                         {
+                            "@Reference": "gr_Ara-DD"
+                         },
+                         {
+                            "@Reference": "gr_Ocr-DD"
+                         },
+                         {
+                            "@Reference": "gr_Gri-DD"
+                         },
+                         {
+                            "@Reference": "gr_Sca-DD"
+                         }
+                      ]
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      },
+                      {
+                         "@Reference": "gr_Tue",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      },
+                      {
+                         "@Reference": "gr_Wed",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      },
+                      {
+                         "@Reference": "gr_Thu",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      },
+                      {
+                         "@Reference": "gr_Fri",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      },
+                      {
+                         "@Reference": "gr_Sat",
+                         "Minimum": "0",
+                         "Maximum": "2"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "SpreadEvents_3",
+                   "Name": "At most three events per day",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "EventGroups": {
+                         "EventGroup": {
+                            "@Reference": "gr_IT-3A"
+                         }
+                      }
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      },
+                      {
+                         "@Reference": "gr_Tue",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      },
+                      {
+                         "@Reference": "gr_Wed",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      },
+                      {
+                         "@Reference": "gr_Thu",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      },
+                      {
+                         "@Reference": "gr_Fri",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      },
+                      {
+                         "@Reference": "gr_Sat",
+                         "Minimum": "0",
+                         "Maximum": "3"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "schoolClashResourceSubstitute",
+                   "Name": "schoolClashResourceSubstitute",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "EventGroups": {
+                         "EventGroup": {
+                            "@Reference": "gr_schoolEvents"
+                         }
+                      }
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Mon_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Mon_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Mon_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Tue_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Tue_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Tue_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Tue_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Wed_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Wed_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Wed_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Wed_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Thu_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Thu_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Thu_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Thu_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Fri_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Fri_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Fri_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Fri_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Sat_1",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Sat_2",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Sat_3",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      },
+                      {
+                         "@Reference": "gr_Sat_4",
+                         "Minimum": "1",
+                         "Maximum": "99"
+                      }
+                   ]
+                }
+             ],
+             "LinkEventsConstraint": {
+                "@Id": "Link_GI_4A-5A",
+                "Name": "Link GI of 4A and 5A",
+                "Required": "true",
+                "Weight": "1",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "EventGroups": {
+                      "EventGroup": {
+                         "@Reference": "gr_GI-4A-5A"
+                      }
+                   }
+                }
+             },
+             "AvoidClashesConstraint": {
+                "@Id": "NoResourceClashes_4",
+                "Name": "NoResourceClashes",
+                "Required": "true",
+                "Weight": "1",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "ResourceGroups": [
+                      {
+                         "@Reference": "gr_Teachers"
+                      },
+                      {
+                         "@Reference": "gr_Classes"
+                      }
+                   ]
+                }
+             },
+             "AvoidUnavailableTimesConstraint": [
+                {
+                   "@Id": "AvoidUnavailableTimes_5",
+                   "Name": "ForbiddenTimesOfRossi",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Rossi"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Wed_1"
+                      },
+                      {
+                         "@Reference": "Wed_2"
+                      },
+                      {
+                         "@Reference": "Wed_3"
+                      },
+                      {
+                         "@Reference": "Wed_4"
+                      },
+                      {
+                         "@Reference": "Wed_5"
+                      },
+                      {
+                         "@Reference": "Wed_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_6",
+                   "Name": "ForbiddenTimesOfBianchi",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Bianchi"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Sat_1"
+                      },
+                      {
+                         "@Reference": "Sat_2"
+                      },
+                      {
+                         "@Reference": "Sat_3"
+                      },
+                      {
+                         "@Reference": "Sat_4"
+                      },
+                      {
+                         "@Reference": "Sat_5"
+                      },
+                      {
+                         "@Reference": "Sat_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_7",
+                   "Name": "ForbiddenTimesOfNeri",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Neri"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Sat_1"
+                      },
+                      {
+                         "@Reference": "Sat_2"
+                      },
+                      {
+                         "@Reference": "Sat_3"
+                      },
+                      {
+                         "@Reference": "Sat_4"
+                      },
+                      {
+                         "@Reference": "Sat_5"
+                      },
+                      {
+                         "@Reference": "Sat_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_8",
+                   "Name": "ForbiddenTimesOfVerdi",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Verdi"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Sat_1"
+                      },
+                      {
+                         "@Reference": "Sat_2"
+                      },
+                      {
+                         "@Reference": "Sat_3"
+                      },
+                      {
+                         "@Reference": "Sat_4"
+                      },
+                      {
+                         "@Reference": "Sat_5"
+                      },
+                      {
+                         "@Reference": "Sat_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_9",
+                   "Name": "ForbiddenTimesOfGialli",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Gialli"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Wed_1"
+                      },
+                      {
+                         "@Reference": "Wed_2"
+                      },
+                      {
+                         "@Reference": "Wed_3"
+                      },
+                      {
+                         "@Reference": "Wed_4"
+                      },
+                      {
+                         "@Reference": "Wed_5"
+                      },
+                      {
+                         "@Reference": "Wed_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_10",
+                   "Name": "ForbiddenTimesOfAzzurri",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Azzurri"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Mon_1"
+                      },
+                      {
+                         "@Reference": "Mon_2"
+                      },
+                      {
+                         "@Reference": "Mon_3"
+                      },
+                      {
+                         "@Reference": "Mon_4"
+                      },
+                      {
+                         "@Reference": "Mon_5"
+                      },
+                      {
+                         "@Reference": "Mon_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_11",
+                   "Name": "ForbiddenTimesOfCelesti",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Celesti"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Wed_1"
+                      },
+                      {
+                         "@Reference": "Wed_2"
+                      },
+                      {
+                         "@Reference": "Wed_3"
+                      },
+                      {
+                         "@Reference": "Wed_4"
+                      },
+                      {
+                         "@Reference": "Wed_5"
+                      },
+                      {
+                         "@Reference": "Wed_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_12",
+                   "Name": "ForbiddenTimesOfViola",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Viola"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Sat_1"
+                      },
+                      {
+                         "@Reference": "Sat_2"
+                      },
+                      {
+                         "@Reference": "Sat_3"
+                      },
+                      {
+                         "@Reference": "Sat_4"
+                      },
+                      {
+                         "@Reference": "Sat_5"
+                      },
+                      {
+                         "@Reference": "Sat_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_13",
+                   "Name": "ForbiddenTimesOfOcra",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Ocra"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Wed_1"
+                      },
+                      {
+                         "@Reference": "Wed_2"
+                      },
+                      {
+                         "@Reference": "Wed_3"
+                      },
+                      {
+                         "@Reference": "Wed_4"
+                      },
+                      {
+                         "@Reference": "Wed_5"
+                      },
+                      {
+                         "@Reference": "Wed_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "AvoidUnavailableTimes_14",
+                   "Name": "ForbiddenTimesOfGrigi",
+                   "Required": "true",
+                   "Weight": "1",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Grigi"
+                         }
+                      }
+                   },
+                   "Times": [
+                      {
+                         "@Reference": "Thu_1"
+                      },
+                      {
+                         "@Reference": "Thu_2"
+                      },
+                      {
+                         "@Reference": "Thu_3"
+                      },
+                      {
+                         "@Reference": "Thu_4"
+                      },
+                      {
+                         "@Reference": "Thu_5"
+                      },
+                      {
+                         "@Reference": "Thu_6"
+                      }
+                   ]
+                },
+                {
+                   "@Id": "NoLessonAfterHourConstraint_20",
+                   "Name": "No lessons Satutday 6",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": [
+                         {
+                            "@Reference": "3A"
+                         },
+                         {
+                            "@Reference": "4A"
+                         },
+                         {
+                            "@Reference": "5A"
+                         }
+                      ]
+                   },
+                   "Times": {
+                      "Time": {
+                         "@Reference": "Sat_6"
+                      }
+                   }
+                }
+             ],
+             "LimitIdleTimesConstraint": {
+                "@Id": "FreePeriodsConstraint_18",
+                "Name": "No idle times for teachers",
+                "Required": "false",
+                "Weight": "1",
+                "CostFunction": "Linear",
+                "AppliesTo": {
+                   "ResourceGroups": {
+                      "ResourceGroup": {
+                         "@Reference": "gr_Teachers"
+                      }
+                   }
+                },
+                "TimeGroups": [
+                   {
+                      "@Reference": "gr_Mon"
+                   },
+                   {
+                      "@Reference": "gr_Tue"
+                   },
+                   {
+                      "@Reference": "gr_Wed"
+                   },
+                   {
+                      "@Reference": "gr_Thu"
+                   },
+                   {
+                      "@Reference": "gr_Fri"
+                   },
+                   {
+                      "@Reference": "gr_Sat"
+                   }
+                ],
+                "Minimum": "0",
+                "Maximum": "0"
+             },
+             "LimitBusyTimesConstraint": [
+                {
+                   "@Id": "MinNofHoursPerDayConstraint_15",
+                   "Name": "At least 3 lessons per day",
+                   "Required": "false",
+                   "Weight": "6",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "ResourceGroups": {
+                         "ResourceGroup": {
+                            "@Reference": "gr_Teachers"
+                         }
+                      }
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon"
+                      },
+                      {
+                         "@Reference": "gr_Tue"
+                      },
+                      {
+                         "@Reference": "gr_Wed"
+                      },
+                      {
+                         "@Reference": "gr_Thu"
+                      },
+                      {
+                         "@Reference": "gr_Fri"
+                      },
+                      {
+                         "@Reference": "gr_Sat"
+                      }
+                   ],
+                   "Minimum": "3",
+                   "Maximum": "999"
+                },
+                {
+                   "@Id": "FewLastHours_1",
+                   "Name": "Avoid lessons at 6th hour",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": [
+                         {
+                            "@Reference": "3A"
+                         },
+                         {
+                            "@Reference": "5A"
+                         }
+                      ]
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   },
+                   "Minimum": "2",
+                   "Maximum": "2"
+                },
+                {
+                   "@Id": "FewLastHours_2",
+                   "Name": "Avoid lessons at 6th hour",
+                   "Required": "false",
+                   "Weight": "100",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "4A"
+                         }
+                      }
+                   },
+                   "TimeGroups": {
+                      "TimeGroup": {
+                         "@Reference": "gr_LastTimes"
+                      }
+                   },
+                   "Minimum": "0",
+                   "Maximum": "0"
+                },
+                {
+                   "@Id": "MaxNofHoursPerDayConstraint_16",
+                   "Name": "At most 4 times per day",
+                   "Required": "false",
+                   "Weight": "6",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": [
+                         {
+                            "@Reference": "Rossi"
+                         },
+                         {
+                            "@Reference": "Bianchi"
+                         },
+                         {
+                            "@Reference": "Neri"
+                         },
+                         {
+                            "@Reference": "Verdi"
+                         },
+                         {
+                            "@Reference": "Gialli"
+                         },
+                         {
+                            "@Reference": "Azzurri"
+                         },
+                         {
+                            "@Reference": "Celesti"
+                         },
+                         {
+                            "@Reference": "Viola"
+                         },
+                         {
+                            "@Reference": "Arancioni"
+                         },
+                         {
+                            "@Reference": "Ocra"
+                         },
+                         {
+                            "@Reference": "Grigi"
+                         },
+                         {
+                            "@Reference": "Scarlatti"
+                         }
+                      ]
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon"
+                      },
+                      {
+                         "@Reference": "gr_Tue"
+                      },
+                      {
+                         "@Reference": "gr_Wed"
+                      },
+                      {
+                         "@Reference": "gr_Thu"
+                      },
+                      {
+                         "@Reference": "gr_Fri"
+                      },
+                      {
+                         "@Reference": "gr_Sat"
+                      }
+                   ],
+                   "Minimum": "0",
+                   "Maximum": "4"
+                },
+                {
+                   "@Id": "MaxNofHoursPerDayConstraint_17",
+                   "Name": "At most 5 times per day",
+                   "Required": "false",
+                   "Weight": "6",
+                   "CostFunction": "Linear",
+                   "AppliesTo": {
+                      "Resources": {
+                         "Resource": {
+                            "@Reference": "Marroni"
+                         }
+                      }
+                   },
+                   "TimeGroups": [
+                      {
+                         "@Reference": "gr_Mon"
+                      },
+                      {
+                         "@Reference": "gr_Tue"
+                      },
+                      {
+                         "@Reference": "gr_Wed"
+                      },
+                      {
+                         "@Reference": "gr_Thu"
+                      },
+                      {
+                         "@Reference": "gr_Fri"
+                      },
+                      {
+                         "@Reference": "gr_Sat"
+                      }
+                   ],
+                   "Minimum": "0",
+                   "Maximum": "5"
+                }
+             ]
+          }
+       }
+    },
+    "SolutionGroups": [
+       {
+          "@Id": "AndreaSchaerf_2009-12-02",
+          "MetaData": {
+             "Contributor": "Andrea Schaerf",
+             "Date": "02/12/2009 16:34:46",
+             "Description": "Solution from the archive of Andrea Schaerf."
+          },
+          "Solution": {
+             "@Reference": "ItalyInstance1_XHSTT-v2014",
+             "Events": [
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "FR-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "FR-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "FR-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "GI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_5"
+                   }
+                },
+                {
+                   "@Reference": "GI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_5"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_5"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "MA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_6"
+                   }
+                },
+                {
+                   "@Reference": "MA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_2"
+                   }
+                },
+                {
+                   "@Reference": "RE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "SC-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "SC-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "SC-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_5"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "GI-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "GI-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "IN-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "IN-4A1",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "IN-4A1",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "MA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "MA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "RE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_5"
+                   }
+                },
+                {
+                   "@Reference": "SC-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "SC-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_5"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_5"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "IN-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "IN-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "IN-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "MA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "MA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "RE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "SC-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "SC-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_5"
+                   }
+                },
+                {
+                   "@Reference": "Ros-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "Ros-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "Bia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "Bia-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_2"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Gia-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "Gia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Vio-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "Vio-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_2"
+                   }
+                },
+                {
+                   "@Reference": "Ocr-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "Ocr-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "Sca-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "Sca-DD",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                }
+             ]
+          }
+       },
+       {
+          "@Id": "VAGO2012",
+          "MetaData": {
+             "Contributor": "Christos Valouxis and Christos Gogos",
+             "Date": "Fri Apr 20 12:13:00 EEST 2012",
+             "Description": "ITC2011"
+          },
+          "Solution": {
+             "@Reference": "ItalyInstance1_XHSTT-v2014",
+             "Events": [
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "DI-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "FR-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "FR-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "GI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "GI-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_5"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_5"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "IN-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "MA-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "RA-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "RE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "SC-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "SC-3A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_6"
+                   }
+                },
+                {
+                   "@Reference": "TE-3A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "DI-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "GI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "GI-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_2"
+                   }
+                },
+                {
+                   "@Reference": "IN-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_5"
+                   }
+                },
+                {
+                   "@Reference": "IN-4A1",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "MA-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_5"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "RE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "SC-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "SC-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_5"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "TE-4A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "GI-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_5"
+                   }
+                },
+                {
+                   "@Reference": "DI-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "IN-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "IN-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Mon_5"
+                   }
+                },
+                {
+                   "@Reference": "IT-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "MA-5A",
+                   "Duration": "2",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_2"
+                   }
+                },
+                {
+                   "@Reference": "RA-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "RE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "SC-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "SC-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_5"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_5"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_6"
+                   }
+                },
+                {
+                   "@Reference": "TE-5A",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_5"
+                   }
+                },
+                {
+                   "@Reference": "Ros-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_1"
+                   }
+                },
+                {
+                   "@Reference": "Ros-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "Ros-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Bia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "Bia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Bia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_4"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_4"
+                   }
+                },
+                {
+                   "@Reference": "Ner-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_2"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_3"
+                   }
+                },
+                {
+                   "@Reference": "Ver-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_2"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "Mar-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_1"
+                   }
+                },
+                {
+                   "@Reference": "Gia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_3"
+                   }
+                },
+                {
+                   "@Reference": "Gia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_1"
+                   }
+                },
+                {
+                   "@Reference": "Gia-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_2"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_6"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "Azz-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_2"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_4"
+                   }
+                },
+                {
+                   "@Reference": "Cel-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Thu_2"
+                   }
+                },
+                {
+                   "@Reference": "Vio-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Mon_4"
+                   }
+                },
+                {
+                   "@Reference": "Vio-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_3"
+                   }
+                },
+                {
+                   "@Reference": "Vio-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_4"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Tue_1"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Ara-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_4"
+                   }
+                },
+                {
+                   "@Reference": "Ocr-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_2"
+                   }
+                },
+                {
+                   "@Reference": "Ocr-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_3"
+                   }
+                },
+                {
+                   "@Reference": "Ocr-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Fri_1"
+                   }
+                },
+                {
+                   "@Reference": "Gri-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_3"
+                   }
+                },
+                {
+                   "@Reference": "Sca-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_1"
+                   }
+                },
+                {
+                   "@Reference": "Sca-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Wed_2"
+                   }
+                },
+                {
+                   "@Reference": "Sca-DD",
+                   "Duration": "1",
+                   "Time": {
+                      "@Reference": "Sat_3"
+                   }
+                }
+             ]
+          }
+       }
+    ]
+ }
