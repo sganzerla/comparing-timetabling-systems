@@ -4,7 +4,9 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Events } from '../api/events';
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+  })
 export class EventService {
 
     private baseUrl = `${environment.apiUrl}/events`;

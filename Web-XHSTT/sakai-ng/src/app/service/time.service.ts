@@ -4,7 +4,9 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Times } from '../api/times';
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+  })
 export class TimeService {
 
     private baseUrl = `${environment.apiUrl}/times`;

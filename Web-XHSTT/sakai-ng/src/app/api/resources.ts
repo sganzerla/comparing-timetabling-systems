@@ -5,12 +5,12 @@ export interface Resources {
   }
 
   export interface ResourceType {
-    "@Id": string
+    Id: string
     Name: string
   }
 
   export interface ResourceGroup {
-    "@Id": string
+    Id: string
     Name: string
     ResourceType: ResourceType2
   }
@@ -20,7 +20,7 @@ export interface Resources {
   }
 
   export interface Resource {
-    "@Id": string
+    Id: string
     Name: string
     ResourceType: ResourceType3
     ResourceGroups: ResourceGroups

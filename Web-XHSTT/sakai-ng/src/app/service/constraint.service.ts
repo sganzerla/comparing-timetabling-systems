@@ -4,7 +4,9 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Constraints } from '../api/constraints';
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+  })
 export class ConstraintService {
 
     private baseUrl = `${environment.apiUrl}/constraints`;

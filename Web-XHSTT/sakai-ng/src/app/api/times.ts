@@ -9,17 +9,17 @@ export interface Times {
   }
 
   export interface Day {
-    "@Id": string
+    Id: string
     Name: string
   }
 
   export interface TimeGroup {
-    "@Id": string
+    Id: string
     Name: string
   }
 
   export interface Time {
-    "@Id": string
+    Id: string
     Name: string
     Day: Day2
     TimeGroups: any

@@ -11,7 +11,7 @@ export interface Constraints {
   }
 
   export interface AssignTimeConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -32,7 +32,7 @@ export interface Constraints {
   }
 
   export interface SplitEventsConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -57,7 +57,7 @@ export interface Constraints {
   }
 
   export interface DistributeSplitEventsConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -77,7 +77,7 @@ export interface Constraints {
   }
 
   export interface PreferTimesConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -108,7 +108,7 @@ export interface Constraints {
   }
 
   export interface SpreadEventsConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -132,7 +132,7 @@ export interface Constraints {
   }
 
   export interface AvoidClashesConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -149,7 +149,7 @@ export interface Constraints {
   }
 
   export interface AvoidUnavailableTimesConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -175,7 +175,7 @@ export interface Constraints {
   }
 
   export interface LimitIdleTimesConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string
@@ -203,7 +203,7 @@ export interface Constraints {
   }
 
   export interface ClusterBusyTimesConstraint {
-    "@Id": string
+    Id: string
     Name: string
     Required: string
     Weight: string

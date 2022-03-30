@@ -1,5 +1,4 @@
 {
-    "@Id": "BR-SA-00",
     "MetaData": {
        "Name": "BrazilInstance2",
        "Contributor": "Originally from Souza, M.J.F, translated by Santos, H.G.S. and Post, G.F.",
@@ -12,34 +11,34 @@
        "TimeGroups": {
           "Day": [
              {
-                "@Id": "gr_Mo",
+                "Id": "gr_Mo",
                 "Name": "Mo"
              },
              {
-                "@Id": "gr_Tu",
+                "Id": "gr_Tu",
                 "Name": "Tu"
              },
              {
-                "@Id": "gr_We",
+                "Id": "gr_We",
                 "Name": "We"
              },
              {
-                "@Id": "gr_Th",
+                "Id": "gr_Th",
                 "Name": "Th"
              },
              {
-                "@Id": "gr_Fr",
+                "Id": "gr_Fr",
                 "Name": "Fr"
              }
           ],
           "TimeGroup": {
-             "@Id": "gr_TimesDurationTwo",
+             "Id": "gr_TimesDurationTwo",
              "Name": "TimesDurationTwo"
           }
        },
        "Time": [
           {
-             "@Id": "Mo_1",
+             "Id": "Mo_1",
              "Name": "Mo_1",
              "Day": {
                 "@Reference": "gr_Mo"
@@ -51,7 +50,7 @@
              }
           },
           {
-             "@Id": "Mo_2",
+             "Id": "Mo_2",
              "Name": "Mo_2",
              "Day": {
                 "@Reference": "gr_Mo"
@@ -63,7 +62,7 @@
              }
           },
           {
-             "@Id": "Mo_3",
+             "Id": "Mo_3",
              "Name": "Mo_3",
              "Day": {
                 "@Reference": "gr_Mo"
@@ -75,7 +74,7 @@
              }
           },
           {
-             "@Id": "Mo_4",
+             "Id": "Mo_4",
              "Name": "Mo_4",
              "Day": {
                 "@Reference": "gr_Mo"
@@ -87,7 +86,7 @@
              }
           },
           {
-             "@Id": "Mo_5",
+             "Id": "Mo_5",
              "Name": "Mo_5",
              "Day": {
                 "@Reference": "gr_Mo"
@@ -95,7 +94,7 @@
              "TimeGroups": []
           },
           {
-             "@Id": "Tu_1",
+             "Id": "Tu_1",
              "Name": "Tu_1",
              "Day": {
                 "@Reference": "gr_Tu"
@@ -107,7 +106,7 @@
              }
           },
           {
-             "@Id": "Tu_2",
+             "Id": "Tu_2",
              "Name": "Tu_2",
              "Day": {
                 "@Reference": "gr_Tu"
@@ -119,7 +118,7 @@
              }
           },
           {
-             "@Id": "Tu_3",
+             "Id": "Tu_3",
              "Name": "Tu_3",
              "Day": {
                 "@Reference": "gr_Tu"
@@ -131,7 +130,7 @@
              }
           },
           {
-             "@Id": "Tu_4",
+             "Id": "Tu_4",
              "Name": "Tu_4",
              "Day": {
                 "@Reference": "gr_Tu"
@@ -143,7 +142,7 @@
              }
           },
           {
-             "@Id": "Tu_5",
+             "Id": "Tu_5",
              "Name": "Tu_5",
              "Day": {
                 "@Reference": "gr_Tu"
@@ -151,7 +150,7 @@
              "TimeGroups": []
           },
           {
-             "@Id": "We_1",
+             "Id": "We_1",
              "Name": "We_1",
              "Day": {
                 "@Reference": "gr_We"
@@ -163,7 +162,7 @@
              }
           },
           {
-             "@Id": "We_2",
+             "Id": "We_2",
              "Name": "We_2",
              "Day": {
                 "@Reference": "gr_We"
@@ -175,7 +174,7 @@
              }
           },
           {
-             "@Id": "We_3",
+             "Id": "We_3",
              "Name": "We_3",
              "Day": {
                 "@Reference": "gr_We"
@@ -187,7 +186,7 @@
              }
           },
           {
-             "@Id": "We_4",
+             "Id": "We_4",
              "Name": "We_4",
              "Day": {
                 "@Reference": "gr_We"
@@ -199,7 +198,7 @@
              }
           },
           {
-             "@Id": "We_5",
+             "Id": "We_5",
              "Name": "We_5",
              "Day": {
                 "@Reference": "gr_We"
@@ -207,7 +206,7 @@
              "TimeGroups": []
           },
           {
-             "@Id": "Th_1",
+             "Id": "Th_1",
              "Name": "Th_1",
              "Day": {
                 "@Reference": "gr_Th"
@@ -219,7 +218,7 @@
              }
           },
           {
-             "@Id": "Th_2",
+             "Id": "Th_2",
              "Name": "Th_2",
              "Day": {
                 "@Reference": "gr_Th"
@@ -231,7 +230,7 @@
              }
           },
           {
-             "@Id": "Th_3",
+             "Id": "Th_3",
              "Name": "Th_3",
              "Day": {
                 "@Reference": "gr_Th"
@@ -243,7 +242,7 @@
              }
           },
           {
-             "@Id": "Th_4",
+             "Id": "Th_4",
              "Name": "Th_4",
              "Day": {
                 "@Reference": "gr_Th"
@@ -255,7 +254,7 @@
              }
           },
           {
-             "@Id": "Th_5",
+             "Id": "Th_5",
              "Name": "Th_5",
              "Day": {
                 "@Reference": "gr_Th"
@@ -263,7 +262,7 @@
              "TimeGroups": []
           },
           {
-             "@Id": "Fr_1",
+             "Id": "Fr_1",
              "Name": "Fr_1",
              "Day": {
                 "@Reference": "gr_Fr"
@@ -275,7 +274,7 @@
              }
           },
           {
-             "@Id": "Fr_2",
+             "Id": "Fr_2",
              "Name": "Fr_2",
              "Day": {
                 "@Reference": "gr_Fr"
@@ -287,7 +286,7 @@
              }
           },
           {
-             "@Id": "Fr_3",
+             "Id": "Fr_3",
              "Name": "Fr_3",
              "Day": {
                 "@Reference": "gr_Fr"
@@ -299,7 +298,7 @@
              }
           },
           {
-             "@Id": "Fr_4",
+             "Id": "Fr_4",
              "Name": "Fr_4",
              "Day": {
                 "@Reference": "gr_Fr"
@@ -311,7 +310,7 @@
              }
           },
           {
-             "@Id": "Fr_5",
+             "Id": "Fr_5",
              "Name": "Fr_5",
              "Day": {
                 "@Reference": "gr_Fr"
@@ -323,24 +322,24 @@
     "Resources": {
        "ResourceTypes": [
           {
-             "@Id": "Teacher",
+             "Id": "Teacher",
              "Name": "Teacher"
           },
           {
-             "@Id": "Class",
+             "Id": "Class",
              "Name": "Class"
           }
        ],
        "ResourceGroups": [
           {
-             "@Id": "gr_Teachers",
+             "Id": "gr_Teachers",
              "Name": "allTeachers",
              "ResourceType": {
                 "@Reference": "Teacher"
              }
           },
           {
-             "@Id": "gr_Classes",
+             "Id": "gr_Classes",
              "Name": "allClasses",
              "ResourceType": {
                 "@Reference": "Class"
@@ -349,7 +348,7 @@
        ],
        "Resource": [
           {
-             "@Id": "T1",
+             "Id": "T1",
              "Name": "T1",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -361,7 +360,7 @@
              }
           },
           {
-             "@Id": "T2",
+             "Id": "T2",
              "Name": "T2",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -373,7 +372,7 @@
              }
           },
           {
-             "@Id": "T3",
+             "Id": "T3",
              "Name": "T3",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -385,7 +384,7 @@
              }
           },
           {
-             "@Id": "T4",
+             "Id": "T4",
              "Name": "T4",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -397,7 +396,7 @@
              }
           },
           {
-             "@Id": "T5",
+             "Id": "T5",
              "Name": "T5",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -409,7 +408,7 @@
              }
           },
           {
-             "@Id": "T6",
+             "Id": "T6",
              "Name": "T6",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -421,7 +420,7 @@
              }
           },
           {
-             "@Id": "T7",
+             "Id": "T7",
              "Name": "T7",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -433,7 +432,7 @@
              }
           },
           {
-             "@Id": "T8",
+             "Id": "T8",
              "Name": "T8",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -445,7 +444,7 @@
              }
           },
           {
-             "@Id": "T9",
+             "Id": "T9",
              "Name": "T9",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -457,7 +456,7 @@
              }
           },
           {
-             "@Id": "T10",
+             "Id": "T10",
              "Name": "T10",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -469,7 +468,7 @@
              }
           },
           {
-             "@Id": "T11",
+             "Id": "T11",
              "Name": "T11",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -481,7 +480,7 @@
              }
           },
           {
-             "@Id": "T12",
+             "Id": "T12",
              "Name": "T12",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -493,7 +492,7 @@
              }
           },
           {
-             "@Id": "T13",
+             "Id": "T13",
              "Name": "T13",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -505,7 +504,7 @@
              }
           },
           {
-             "@Id": "T14",
+             "Id": "T14",
              "Name": "T14",
              "ResourceType": {
                 "@Reference": "Teacher"
@@ -517,7 +516,7 @@
              }
           },
           {
-             "@Id": "S1",
+             "Id": "S1",
              "Name": "S1",
              "ResourceType": {
                 "@Reference": "Class"
@@ -529,7 +528,7 @@
              }
           },
           {
-             "@Id": "S2",
+             "Id": "S2",
              "Name": "S2",
              "ResourceType": {
                 "@Reference": "Class"
@@ -541,7 +540,7 @@
              }
           },
           {
-             "@Id": "S3",
+             "Id": "S3",
              "Name": "S3",
              "ResourceType": {
                 "@Reference": "Class"
@@ -553,7 +552,7 @@
              }
           },
           {
-             "@Id": "S4",
+             "Id": "S4",
              "Name": "S4",
              "ResourceType": {
                 "@Reference": "Class"
@@ -565,7 +564,7 @@
              }
           },
           {
-             "@Id": "S5",
+             "Id": "S5",
              "Name": "S5",
              "ResourceType": {
                 "@Reference": "Class"
@@ -577,7 +576,7 @@
              }
           },
           {
-             "@Id": "S6",
+             "Id": "S6",
              "Name": "S6",
              "ResourceType": {
                 "@Reference": "Class"
@@ -594,266 +593,266 @@
        "EventGroups": {
           "Course": [
              {
-                "@Id": "gr_T1-S1",
+                "Id": "gr_T1-S1",
                 "Name": "T1-S1"
              },
              {
-                "@Id": "gr_T1-S2",
+                "Id": "gr_T1-S2",
                 "Name": "T1-S2"
              },
              {
-                "@Id": "gr_T1-S3",
+                "Id": "gr_T1-S3",
                 "Name": "T1-S3"
              },
              {
-                "@Id": "gr_T2-S2",
+                "Id": "gr_T2-S2",
                 "Name": "T2-S2"
              },
              {
-                "@Id": "gr_T2-S4",
+                "Id": "gr_T2-S4",
                 "Name": "T2-S4"
              },
              {
-                "@Id": "gr_T2-S5",
+                "Id": "gr_T2-S5",
                 "Name": "T2-S5"
              },
              {
-                "@Id": "gr_T2-S6",
+                "Id": "gr_T2-S6",
                 "Name": "T2-S6"
              },
              {
-                "@Id": "gr_T3-S4",
+                "Id": "gr_T3-S4",
                 "Name": "T3-S4"
              },
              {
-                "@Id": "gr_T3-S5",
+                "Id": "gr_T3-S5",
                 "Name": "T3-S5"
              },
              {
-                "@Id": "gr_T3-S6",
+                "Id": "gr_T3-S6",
                 "Name": "T3-S6"
              },
              {
-                "@Id": "gr_T4-S1",
+                "Id": "gr_T4-S1",
                 "Name": "T4-S1"
              },
              {
-                "@Id": "gr_T4-S2",
+                "Id": "gr_T4-S2",
                 "Name": "T4-S2"
              },
              {
-                "@Id": "gr_T4-S3",
+                "Id": "gr_T4-S3",
                 "Name": "T4-S3"
              },
              {
-                "@Id": "gr_T4-S4",
+                "Id": "gr_T4-S4",
                 "Name": "T4-S4"
              },
              {
-                "@Id": "gr_T5-S5",
+                "Id": "gr_T5-S5",
                 "Name": "T5-S5"
              },
              {
-                "@Id": "gr_T5-S6",
+                "Id": "gr_T5-S6",
                 "Name": "T5-S6"
              },
              {
-                "@Id": "gr_T6-S1",
+                "Id": "gr_T6-S1",
                 "Name": "T6-S1"
              },
              {
-                "@Id": "gr_T6-S2",
+                "Id": "gr_T6-S2",
                 "Name": "T6-S2"
              },
              {
-                "@Id": "gr_T6-S3",
+                "Id": "gr_T6-S3",
                 "Name": "T6-S3"
              },
              {
-                "@Id": "gr_T6-S4",
+                "Id": "gr_T6-S4",
                 "Name": "T6-S4"
              },
              {
-                "@Id": "gr_T6-S5",
+                "Id": "gr_T6-S5",
                 "Name": "T6-S5"
              },
              {
-                "@Id": "gr_T6-S6",
+                "Id": "gr_T6-S6",
                 "Name": "T6-S6"
              },
              {
-                "@Id": "gr_T7-S1",
+                "Id": "gr_T7-S1",
                 "Name": "T7-S1"
              },
              {
-                "@Id": "gr_T7-S2",
+                "Id": "gr_T7-S2",
                 "Name": "T7-S2"
              },
              {
-                "@Id": "gr_T7-S3",
+                "Id": "gr_T7-S3",
                 "Name": "T7-S3"
              },
              {
-                "@Id": "gr_T7-S4",
+                "Id": "gr_T7-S4",
                 "Name": "T7-S4"
              },
              {
-                "@Id": "gr_T7-S5",
+                "Id": "gr_T7-S5",
                 "Name": "T7-S5"
              },
              {
-                "@Id": "gr_T7-S6",
+                "Id": "gr_T7-S6",
                 "Name": "T7-S6"
              },
              {
-                "@Id": "gr_T8-S1",
+                "Id": "gr_T8-S1",
                 "Name": "T8-S1"
              },
              {
-                "@Id": "gr_T8-S2",
+                "Id": "gr_T8-S2",
                 "Name": "T8-S2"
              },
              {
-                "@Id": "gr_T8-S3",
+                "Id": "gr_T8-S3",
                 "Name": "T8-S3"
              },
              {
-                "@Id": "gr_T8-S4",
+                "Id": "gr_T8-S4",
                 "Name": "T8-S4"
              },
              {
-                "@Id": "gr_T8-S5",
+                "Id": "gr_T8-S5",
                 "Name": "T8-S5"
              },
              {
-                "@Id": "gr_T8-S6",
+                "Id": "gr_T8-S6",
                 "Name": "T8-S6"
              },
              {
-                "@Id": "gr_T9-S4",
+                "Id": "gr_T9-S4",
                 "Name": "T9-S4"
              },
              {
-                "@Id": "gr_T9-S6",
+                "Id": "gr_T9-S6",
                 "Name": "T9-S6"
              },
              {
-                "@Id": "gr_T10-S1",
+                "Id": "gr_T10-S1",
                 "Name": "T10-S1"
              },
              {
-                "@Id": "gr_T10-S2",
+                "Id": "gr_T10-S2",
                 "Name": "T10-S2"
              },
              {
-                "@Id": "gr_T10-S3",
+                "Id": "gr_T10-S3",
                 "Name": "T10-S3"
              },
              {
-                "@Id": "gr_T10-S5",
+                "Id": "gr_T10-S5",
                 "Name": "T10-S5"
              },
              {
-                "@Id": "gr_T11-S1",
+                "Id": "gr_T11-S1",
                 "Name": "T11-S1"
              },
              {
-                "@Id": "gr_T11-S2",
+                "Id": "gr_T11-S2",
                 "Name": "T11-S2"
              },
              {
-                "@Id": "gr_T11-S3",
+                "Id": "gr_T11-S3",
                 "Name": "T11-S3"
              },
              {
-                "@Id": "gr_T11-S4",
+                "Id": "gr_T11-S4",
                 "Name": "T11-S4"
              },
              {
-                "@Id": "gr_T11-S5",
+                "Id": "gr_T11-S5",
                 "Name": "T11-S5"
              },
              {
-                "@Id": "gr_T11-S6",
+                "Id": "gr_T11-S6",
                 "Name": "T11-S6"
              },
              {
-                "@Id": "gr_T12-S1",
+                "Id": "gr_T12-S1",
                 "Name": "T12-S1"
              },
              {
-                "@Id": "gr_T12-S2",
+                "Id": "gr_T12-S2",
                 "Name": "T12-S2"
              },
              {
-                "@Id": "gr_T12-S3",
+                "Id": "gr_T12-S3",
                 "Name": "T12-S3"
              },
              {
-                "@Id": "gr_T12-S4",
+                "Id": "gr_T12-S4",
                 "Name": "T12-S4"
              },
              {
-                "@Id": "gr_T12-S5",
+                "Id": "gr_T12-S5",
                 "Name": "T12-S5"
              },
              {
-                "@Id": "gr_T12-S6",
+                "Id": "gr_T12-S6",
                 "Name": "T12-S6"
              },
              {
-                "@Id": "gr_T13-S1",
+                "Id": "gr_T13-S1",
                 "Name": "T13-S1"
              },
              {
-                "@Id": "gr_T13-S2",
+                "Id": "gr_T13-S2",
                 "Name": "T13-S2"
              },
              {
-                "@Id": "gr_T13-S3",
+                "Id": "gr_T13-S3",
                 "Name": "T13-S3"
              },
              {
-                "@Id": "gr_T13-S4",
+                "Id": "gr_T13-S4",
                 "Name": "T13-S4"
              },
              {
-                "@Id": "gr_T13-S5",
+                "Id": "gr_T13-S5",
                 "Name": "T13-S5"
              },
              {
-                "@Id": "gr_T13-S6",
+                "Id": "gr_T13-S6",
                 "Name": "T13-S6"
              },
              {
-                "@Id": "gr_T14-S1",
+                "Id": "gr_T14-S1",
                 "Name": "T14-S1"
              },
              {
-                "@Id": "gr_T14-S2",
+                "Id": "gr_T14-S2",
                 "Name": "T14-S2"
              },
              {
-                "@Id": "gr_T14-S3",
+                "Id": "gr_T14-S3",
                 "Name": "T14-S3"
              },
              {
-                "@Id": "gr_T14-S4",
+                "Id": "gr_T14-S4",
                 "Name": "T14-S4"
              },
              {
-                "@Id": "gr_T14-S5",
+                "Id": "gr_T14-S5",
                 "Name": "T14-S5"
              }
           ],
           "EventGroup": {
-             "@Id": "gr_AllEvents",
+             "Id": "gr_AllEvents",
              "Name": "All Events"
           }
        },
        "Event": [
           {
-             "@Id": "T1-S1",
+             "Id": "T1-S1",
              "Name": "T1-S1",
              "Duration": "4",
              "Course": {
@@ -882,7 +881,7 @@
              }
           },
           {
-             "@Id": "T1-S2",
+             "Id": "T1-S2",
              "Name": "T1-S2",
              "Duration": "3",
              "Course": {
@@ -911,7 +910,7 @@
              }
           },
           {
-             "@Id": "T1-S3",
+             "Id": "T1-S3",
              "Name": "T1-S3",
              "Duration": "4",
              "Course": {
@@ -940,7 +939,7 @@
              }
           },
           {
-             "@Id": "T2-S2",
+             "Id": "T2-S2",
              "Name": "T2-S2",
              "Duration": "1",
              "Course": {
@@ -969,7 +968,7 @@
              }
           },
           {
-             "@Id": "T2-S4",
+             "Id": "T2-S4",
              "Name": "T2-S4",
              "Duration": "3",
              "Course": {
@@ -998,7 +997,7 @@
              }
           },
           {
-             "@Id": "T2-S5",
+             "Id": "T2-S5",
              "Name": "T2-S5",
              "Duration": "3",
              "Course": {
@@ -1027,7 +1026,7 @@
              }
           },
           {
-             "@Id": "T2-S6",
+             "Id": "T2-S6",
              "Name": "T2-S6",
              "Duration": "4",
              "Course": {
@@ -1056,7 +1055,7 @@
              }
           },
           {
-             "@Id": "T3-S4",
+             "Id": "T3-S4",
              "Name": "T3-S4",
              "Duration": "1",
              "Course": {
@@ -1085,7 +1084,7 @@
              }
           },
           {
-             "@Id": "T3-S5",
+             "Id": "T3-S5",
              "Name": "T3-S5",
              "Duration": "1",
              "Course": {
@@ -1114,7 +1113,7 @@
              }
           },
           {
-             "@Id": "T3-S6",
+             "Id": "T3-S6",
              "Name": "T3-S6",
              "Duration": "1",
              "Course": {
@@ -1143,7 +1142,7 @@
              }
           },
           {
-             "@Id": "T4-S1",
+             "Id": "T4-S1",
              "Name": "T4-S1",
              "Duration": "3",
              "Course": {
@@ -1172,7 +1171,7 @@
              }
           },
           {
-             "@Id": "T4-S2",
+             "Id": "T4-S2",
              "Name": "T4-S2",
              "Duration": "3",
              "Course": {
@@ -1201,7 +1200,7 @@
              }
           },
           {
-             "@Id": "T4-S3",
+             "Id": "T4-S3",
              "Name": "T4-S3",
              "Duration": "3",
              "Course": {
@@ -1230,7 +1229,7 @@
              }
           },
           {
-             "@Id": "T4-S4",
+             "Id": "T4-S4",
              "Name": "T4-S4",
              "Duration": "3",
              "Course": {
@@ -1259,7 +1258,7 @@
              }
           },
           {
-             "@Id": "T5-S5",
+             "Id": "T5-S5",
              "Name": "T5-S5",
              "Duration": "3",
              "Course": {
@@ -1288,7 +1287,7 @@
              }
           },
           {
-             "@Id": "T5-S6",
+             "Id": "T5-S6",
              "Name": "T5-S6",
              "Duration": "4",
              "Course": {
@@ -1317,7 +1316,7 @@
              }
           },
           {
-             "@Id": "T6-S1",
+             "Id": "T6-S1",
              "Name": "T6-S1",
              "Duration": "3",
              "Course": {
@@ -1346,7 +1345,7 @@
              }
           },
           {
-             "@Id": "T6-S2",
+             "Id": "T6-S2",
              "Name": "T6-S2",
              "Duration": "3",
              "Course": {
@@ -1375,7 +1374,7 @@
              }
           },
           {
-             "@Id": "T6-S3",
+             "Id": "T6-S3",
              "Name": "T6-S3",
              "Duration": "3",
              "Course": {
@@ -1404,7 +1403,7 @@
              }
           },
           {
-             "@Id": "T6-S4",
+             "Id": "T6-S4",
              "Name": "T6-S4",
              "Duration": "3",
              "Course": {
@@ -1433,7 +1432,7 @@
              }
           },
           {
-             "@Id": "T6-S5",
+             "Id": "T6-S5",
              "Name": "T6-S5",
              "Duration": "3",
              "Course": {
@@ -1462,7 +1461,7 @@
              }
           },
           {
-             "@Id": "T6-S6",
+             "Id": "T6-S6",
              "Name": "T6-S6",
              "Duration": "3",
              "Course": {
@@ -1491,7 +1490,7 @@
              }
           },
           {
-             "@Id": "T7-S1",
+             "Id": "T7-S1",
              "Name": "T7-S1",
              "Duration": "3",
              "Course": {
@@ -1520,7 +1519,7 @@
              }
           },
           {
-             "@Id": "T7-S2",
+             "Id": "T7-S2",
              "Name": "T7-S2",
              "Duration": "3",
              "Course": {
@@ -1549,7 +1548,7 @@
              }
           },
           {
-             "@Id": "T7-S3",
+             "Id": "T7-S3",
              "Name": "T7-S3",
              "Duration": "3",
              "Course": {
@@ -1578,7 +1577,7 @@
              }
           },
           {
-             "@Id": "T7-S4",
+             "Id": "T7-S4",
              "Name": "T7-S4",
              "Duration": "3",
              "Course": {
@@ -1607,7 +1606,7 @@
              }
           },
           {
-             "@Id": "T7-S5",
+             "Id": "T7-S5",
              "Name": "T7-S5",
              "Duration": "3",
              "Course": {
@@ -1636,7 +1635,7 @@
              }
           },
           {
-             "@Id": "T7-S6",
+             "Id": "T7-S6",
              "Name": "T7-S6",
              "Duration": "3",
              "Course": {
@@ -1665,7 +1664,7 @@
              }
           },
           {
-             "@Id": "T8-S1",
+             "Id": "T8-S1",
              "Name": "T8-S1",
              "Duration": "3",
              "Course": {
@@ -1694,7 +1693,7 @@
              }
           },
           {
-             "@Id": "T8-S2",
+             "Id": "T8-S2",
              "Name": "T8-S2",
              "Duration": "3",
              "Course": {
@@ -1723,7 +1722,7 @@
              }
           },
           {
-             "@Id": "T8-S3",
+             "Id": "T8-S3",
              "Name": "T8-S3",
              "Duration": "3",
              "Course": {
@@ -1752,7 +1751,7 @@
              }
           },
           {
-             "@Id": "T8-S4",
+             "Id": "T8-S4",
              "Name": "T8-S4",
              "Duration": "3",
              "Course": {
@@ -1781,7 +1780,7 @@
              }
           },
           {
-             "@Id": "T8-S5",
+             "Id": "T8-S5",
              "Name": "T8-S5",
              "Duration": "3",
              "Course": {
@@ -1810,7 +1809,7 @@
              }
           },
           {
-             "@Id": "T8-S6",
+             "Id": "T8-S6",
              "Name": "T8-S6",
              "Duration": "2",
              "Course": {
@@ -1839,7 +1838,7 @@
              }
           },
           {
-             "@Id": "T9-S4",
+             "Id": "T9-S4",
              "Name": "T9-S4",
              "Duration": "2",
              "Course": {
@@ -1868,7 +1867,7 @@
              }
           },
           {
-             "@Id": "T9-S6",
+             "Id": "T9-S6",
              "Name": "T9-S6",
              "Duration": "2",
              "Course": {
@@ -1897,7 +1896,7 @@
              }
           },
           {
-             "@Id": "T10-S1",
+             "Id": "T10-S1",
              "Name": "T10-S1",
              "Duration": "2",
              "Course": {
@@ -1926,7 +1925,7 @@
              }
           },
           {
-             "@Id": "T10-S2",
+             "Id": "T10-S2",
              "Name": "T10-S2",
              "Duration": "2",
              "Course": {
@@ -1955,7 +1954,7 @@
              }
           },
           {
-             "@Id": "T10-S3",
+             "Id": "T10-S3",
              "Name": "T10-S3",
              "Duration": "2",
              "Course": {
@@ -1984,7 +1983,7 @@
              }
           },
           {
-             "@Id": "T10-S5",
+             "Id": "T10-S5",
              "Name": "T10-S5",
              "Duration": "2",
              "Course": {
@@ -2013,7 +2012,7 @@
              }
           },
           {
-             "@Id": "T11-S1",
+             "Id": "T11-S1",
              "Name": "T11-S1",
              "Duration": "2",
              "Course": {
@@ -2042,7 +2041,7 @@
              }
           },
           {
-             "@Id": "T11-S2",
+             "Id": "T11-S2",
              "Name": "T11-S2",
              "Duration": "2",
              "Course": {
@@ -2071,7 +2070,7 @@
              }
           },
           {
-             "@Id": "T11-S3",
+             "Id": "T11-S3",
              "Name": "T11-S3",
              "Duration": "2",
              "Course": {
@@ -2100,7 +2099,7 @@
              }
           },
           {
-             "@Id": "T11-S4",
+             "Id": "T11-S4",
              "Name": "T11-S4",
              "Duration": "2",
              "Course": {
@@ -2129,7 +2128,7 @@
              }
           },
           {
-             "@Id": "T11-S5",
+             "Id": "T11-S5",
              "Name": "T11-S5",
              "Duration": "2",
              "Course": {
@@ -2158,7 +2157,7 @@
              }
           },
           {
-             "@Id": "T11-S6",
+             "Id": "T11-S6",
              "Name": "T11-S6",
              "Duration": "2",
              "Course": {
@@ -2187,7 +2186,7 @@
              }
           },
           {
-             "@Id": "T12-S1",
+             "Id": "T12-S1",
              "Name": "T12-S1",
              "Duration": "2",
              "Course": {
@@ -2216,7 +2215,7 @@
              }
           },
           {
-             "@Id": "T12-S2",
+             "Id": "T12-S2",
              "Name": "T12-S2",
              "Duration": "2",
              "Course": {
@@ -2245,7 +2244,7 @@
              }
           },
           {
-             "@Id": "T12-S3",
+             "Id": "T12-S3",
              "Name": "T12-S3",
              "Duration": "2",
              "Course": {
@@ -2274,7 +2273,7 @@
              }
           },
           {
-             "@Id": "T12-S4",
+             "Id": "T12-S4",
              "Name": "T12-S4",
              "Duration": "2",
              "Course": {
@@ -2303,7 +2302,7 @@
              }
           },
           {
-             "@Id": "T12-S5",
+             "Id": "T12-S5",
              "Name": "T12-S5",
              "Duration": "2",
              "Course": {
@@ -2332,7 +2331,7 @@
              }
           },
           {
-             "@Id": "T12-S6",
+             "Id": "T12-S6",
              "Name": "T12-S6",
              "Duration": "2",
              "Course": {
@@ -2361,7 +2360,7 @@
              }
           },
           {
-             "@Id": "T13-S1",
+             "Id": "T13-S1",
              "Name": "T13-S1",
              "Duration": "2",
              "Course": {
@@ -2390,7 +2389,7 @@
              }
           },
           {
-             "@Id": "T13-S2",
+             "Id": "T13-S2",
              "Name": "T13-S2",
              "Duration": "2",
              "Course": {
@@ -2419,7 +2418,7 @@
              }
           },
           {
-             "@Id": "T13-S3",
+             "Id": "T13-S3",
              "Name": "T13-S3",
              "Duration": "2",
              "Course": {
@@ -2448,7 +2447,7 @@
              }
           },
           {
-             "@Id": "T13-S4",
+             "Id": "T13-S4",
              "Name": "T13-S4",
              "Duration": "2",
              "Course": {
@@ -2477,7 +2476,7 @@
              }
           },
           {
-             "@Id": "T13-S5",
+             "Id": "T13-S5",
              "Name": "T13-S5",
              "Duration": "2",
              "Course": {
@@ -2506,7 +2505,7 @@
              }
           },
           {
-             "@Id": "T13-S6",
+             "Id": "T13-S6",
              "Name": "T13-S6",
              "Duration": "2",
              "Course": {
@@ -2535,7 +2534,7 @@
              }
           },
           {
-             "@Id": "T14-S1",
+             "Id": "T14-S1",
              "Name": "T14-S1",
              "Duration": "1",
              "Course": {
@@ -2564,7 +2563,7 @@
              }
           },
           {
-             "@Id": "T14-S2",
+             "Id": "T14-S2",
              "Name": "T14-S2",
              "Duration": "1",
              "Course": {
@@ -2593,7 +2592,7 @@
              }
           },
           {
-             "@Id": "T14-S3",
+             "Id": "T14-S3",
              "Name": "T14-S3",
              "Duration": "1",
              "Course": {
@@ -2622,7 +2621,7 @@
              }
           },
           {
-             "@Id": "T14-S4",
+             "Id": "T14-S4",
              "Name": "T14-S4",
              "Duration": "1",
              "Course": {
@@ -2651,7 +2650,7 @@
              }
           },
           {
-             "@Id": "T14-S5",
+             "Id": "T14-S5",
              "Name": "T14-S5",
              "Duration": "1",
              "Course": {
@@ -2683,7 +2682,7 @@
     },
     "Constraints": {
        "AssignTimeConstraint": {
-          "@Id": "AssignTimes",
+          "Id": "AssignTimes",
           "Name": "AssignTimes",
           "Required": "true",
           "Weight": "1",
@@ -2697,7 +2696,7 @@
           }
        },
        "SplitEventsConstraint": {
-          "@Id": "SplitEventsConstraint",
+          "Id": "SplitEventsConstraint",
           "Name": "Split events to duration 1 and 2",
           "Required": "true",
           "Weight": "1",
@@ -2716,7 +2715,7 @@
        },
        "DistributeSplitEventsConstraint": [
           {
-             "@Id": "DistributeSplit_1",
+             "Id": "DistributeSplit_1",
              "Name": "At least 1 double lesson(s)",
              "Required": "false",
              "Weight": "1",
@@ -2880,7 +2879,7 @@
              "Maximum": "1"
           },
           {
-             "@Id": "DistributeSplit_2",
+             "Id": "DistributeSplit_2",
              "Name": "At least 2 double lesson(s)",
              "Required": "false",
              "Weight": "1",
@@ -2907,7 +2906,7 @@
           }
        ],
        "PreferTimesConstraint": {
-          "@Id": "PreferredTimes",
+          "Id": "PreferredTimes",
           "Name": "Times for duration 2",
           "Required": "true",
           "Weight": "1",
@@ -2927,7 +2926,7 @@
           "Duration": "2"
        },
        "SpreadEventsConstraint": {
-          "@Id": "SpreadEvents_2",
+          "Id": "SpreadEvents_2",
           "Name": "Spread events max 1 per day",
           "Required": "true",
           "Weight": "1",
@@ -3154,7 +3153,7 @@
           ]
        },
        "AvoidClashesConstraint": {
-          "@Id": "NoResourceClashes",
+          "Id": "NoResourceClashes",
           "Name": "NoResourceClashes",
           "Required": "true",
           "Weight": "1",
@@ -3172,7 +3171,7 @@
        },
        "AvoidUnavailableTimesConstraint": [
           {
-             "@Id": "AvoidUnavailableTimes_T2",
+             "Id": "AvoidUnavailableTimes_T2",
              "Name": "ForbiddenTimesOfT2",
              "Required": "true",
              "Weight": "1",
@@ -3203,7 +3202,7 @@
              ]
           },
           {
-             "@Id": "AvoidUnavailableTimes_T4",
+             "Id": "AvoidUnavailableTimes_T4",
              "Name": "ForbiddenTimesOfT4",
              "Required": "true",
              "Weight": "1",
@@ -3234,7 +3233,7 @@
              ]
           },
           {
-             "@Id": "AvoidUnavailableTimes_T14",
+             "Id": "AvoidUnavailableTimes_T14",
              "Name": "ForbiddenTimesOfT14",
              "Required": "true",
              "Weight": "1",
@@ -3296,7 +3295,7 @@
           }
        ],
        "LimitIdleTimesConstraint": {
-          "@Id": "noIDLETimesT",
+          "Id": "noIDLETimesT",
           "Name": "No IDLE times for teachers",
           "Required": "false",
           "Weight": "3",
@@ -3330,7 +3329,7 @@
        },
        "ClusterBusyTimesConstraint": [
           {
-             "@Id": "MaxNofDaysConstraint_T_days_1",
+             "Id": "MaxNofDaysConstraint_T_days_1",
              "Name": "Not more than 1 days with lessons",
              "Required": "false",
              "Weight": "9",
@@ -3369,7 +3368,7 @@
              "Maximum": "1"
           },
           {
-             "@Id": "MaxNofDaysConstraint_T_days_2",
+             "Id": "MaxNofDaysConstraint_T_days_2",
              "Name": "Not more than 2 days with lessons",
              "Required": "false",
              "Weight": "9",
@@ -3405,7 +3404,7 @@
              "Maximum": "2"
           },
           {
-             "@Id": "MaxNofDaysConstraint_T_days_3",
+             "Id": "MaxNofDaysConstraint_T_days_3",
              "Name": "Not more than 3 days with lessons",
              "Required": "false",
              "Weight": "9",
@@ -3453,7 +3452,7 @@
              "Maximum": "3"
           },
           {
-             "@Id": "MaxNofDaysConstraint_T_days_4",
+             "Id": "MaxNofDaysConstraint_T_days_4",
              "Name": "Not more than 4 days with lessons",
              "Required": "false",
              "Weight": "9",

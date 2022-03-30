@@ -9,17 +9,17 @@ export interface Events {
   }
 
   export interface Course {
-    "@Id": string
+    Id: string
     Name: string
   }
 
   export interface EventGroup {
-    "@Id": string
+    Id: string
     Name: string
   }
 
   export interface Event {
-    "@Id": string
+    Id: string
     Name: string
     Duration: string
     Course: Course2
