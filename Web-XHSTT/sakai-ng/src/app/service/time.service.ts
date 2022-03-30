@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Times } from '../api/times';
+import { Time, Times } from '../api/times';
 
 @Injectable({
     providedIn: 'root'
@@ -17,8 +17,12 @@ export class TimeService {
         return this.http.get<Times>(`${this.baseUrl}/${id}`);
     }
 
-    getAll(): Observable<Array<Times>> {
-        return this.http.get<Times[]>(this.baseUrl);
+    getAll(): Observable<Times> {
+        return this.http.get<Times>(this.baseUrl);
+    }
+
+    getAllTimes(): Observable<Array<Time>> {
+        return this.http.get<Time[]>(`${this.baseUrl}`);
     }
 
     update(item: Times): Observable<Times> {

@@ -17,8 +17,8 @@ export class ResourceService {
         return this.http.get<Resources>(`${this.baseUrl}/${id}`);
     }
 
-    getAll(): Observable<Array<Resources>> {
-        return this.http.get<Resources[]>(this.baseUrl);
+    getAll(): Observable<Resources> {
+        return this.http.get<Resources>(this.baseUrl);
     }
 
     update(item: Resources): Observable<Resources> {

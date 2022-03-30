@@ -36,10 +36,44 @@ export class AppMenuComponent implements OnInit {
             {
                 label: 'TimeTabling',
                 items:[
-                    {label: 'Times', icon: 'pi pi-fw pi-clock', routerLink: ['time']},
-                    {label: 'Resources', icon: 'pi pi-fw pi-sitemap', routerLink: ['resource']},
-                    {label: 'Events', icon: 'pi pi-fw pi-calendar-times', routerLink: ['event']},
-                    {label: 'Constraints', icon: 'pi pi-fw pi-ban', routerLink: ['constraint']},
+                    {
+                        label: 'Times', icon: 'pi pi-fw pi-calendar',
+                        items: [
+                            {
+                                label: 'Time', icon: 'pi pi-fw pi-clock', routerLink: ['time'],
+                            },
+                            {
+                                label: 'TimeGroups', icon: 'pi pi-fw pi-th-large', routerLink: ['time-groups'],
+                            },
+                        ]
+                    },
+                    {
+                        label: 'Resources', icon: 'pi pi-fw pi-sitemap',
+                        items: [
+                            {
+                                label: 'Resource', icon: 'pi pi-fw pi-sitemap', routerLink: ['resource']
+                            },
+
+                        ]
+                    },
+                    {
+                        label: 'Events', icon: 'pi pi-fw pi-calendar-times',
+                        items: [
+                            {
+                                label: 'Event', icon: 'pi pi-fw pi-calendar-times', routerLink: ['event'],
+                            },
+                        ]
+                    },
+                    {
+                        label: 'Constraints', icon: 'pi pi-fw pi-ban',
+                        items: [
+                            {
+                                label: 'Constraint', icon: 'pi pi-fw pi-ban', routerLink: ['constraint'],
+                            },
+                        ]
+                    },
+
+
                 ]
             },
             {
