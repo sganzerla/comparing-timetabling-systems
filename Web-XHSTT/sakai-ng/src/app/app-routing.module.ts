@@ -28,6 +28,10 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { TimeComponent } from './components/time/time.component';
+import { ResourceComponent } from './components/resource/resource.component';
+import { ConstraintComponent } from './components/constraint/constraint.component';
+import { EventComponent } from './components/event/event.component';
 @NgModule({
     imports: [
         RouterModule.forRoot([
@@ -35,6 +39,10 @@ import { AccessComponent } from './components/access/access.component';
                 path: '', component: AppMainComponent,
                 children: [
                     {path: '', component: DashboardComponent},
+                    {path: 'time', component: TimeComponent},
+                    {path: 'resource', component: ResourceComponent},
+                    {path: 'constraint', component: ConstraintComponent},
+                    {path: 'event', component: EventComponent},
                     {path: 'uikit/formlayout', component: FormLayoutComponent},
                     {path: 'uikit/input', component: InputComponent},
                     {path: 'uikit/floatlabel', component: FloatLabelComponent},

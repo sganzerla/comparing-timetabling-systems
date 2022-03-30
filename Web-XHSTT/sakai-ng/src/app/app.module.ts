@@ -140,6 +140,10 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NotfoundComponent } from './components/notfound/notfound.component';
 import { AccessComponent } from './components/access/access.component';
+import { ResourceComponent } from './components/resource/resource.component';
+import { EventComponent } from './components/event/event.component';
+import { ConstraintComponent } from './components/constraint/constraint.component';
+import { TimeComponent } from './components/time/time.component';
 
 @NgModule({
     imports: [
@@ -273,6 +277,10 @@ import { AccessComponent } from './components/access/access.component';
         ErrorComponent,
         NotfoundComponent,
         AccessComponent,
+        ResourceComponent,
+        EventComponent,
+        ConstraintComponent,
+        TimeComponent,
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
