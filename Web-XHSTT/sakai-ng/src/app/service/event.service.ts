@@ -17,8 +17,8 @@ export class EventService {
         return this.http.get<Events>(`${this.baseUrl}/${id}`);
     }
 
-    getAll(): Observable<Array<Events>> {
-        return this.http.get<Events[]>(this.baseUrl);
+    getAll(): Observable<Events> {
+        return this.http.get<Events>(this.baseUrl);
     }
 
     update(item: Events): Observable<Events> {
