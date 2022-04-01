@@ -18,7 +18,7 @@ Em seguida rode a API fake, necessário porta 3000 estar disponível:
 
     json-server --watch db.json
 
-![image](./resources/img/json-server.png)
+![image](../resources/img/json-server.png)
 
 ### Interface gráfica
 
@@ -30,4 +30,4 @@ Em seguida rode o projeto com o comando, necessário porta 4200 estar disponíve
 
     npm start
 
-![image](./resources/img/sakai.png)
+![image](../resources/img/sakai.png)
