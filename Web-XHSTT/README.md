@@ -31,3 +31,7 @@ Em seguida rode o projeto com o comando, necessário porta 4200 estar disponíve
     npm start
 
 ![image](../resources/img/sakai.png)
+
+## Como foram preparados os dados
+
+Utilizando-se um conversor online de XML para JSON foi possível converter a instância `BR-SA-00` do XHSTT para um JSON válido.
