@@ -1,11 +1,5 @@
-# project-read-XHSTT
+# comparing-timetabling-systems
 
-Projeto de testes para leitura e manipulação de dados no formato XHSTT.
+## OverView Sistemas de Horários
 
-## Console-XHSTT
-
-[Aplicação em Python.](Console-XHSTT/README.md)
-
-## Web-XHSTT
-
-[Aplicação web com TypeScript.](Web-XHSTT/README.md)
+[Lista](relatorio.ipynb)
