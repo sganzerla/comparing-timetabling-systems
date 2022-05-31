@@ -4,28 +4,28 @@ Aplicação Desktop, licenciada mas parece ser obsoleta.
 
 ## Home
 
-![image](./timetabler/home.png)
+![image](home.png)
 
 ## Resolvedor
 
-![image](./timetabler/solver.png)
+![image](solver.png)
 
 ## Agendamento
 
-![image](./timetabler/atividades.png)
+![image](atividades.png)
 
 ## Dados básicos
 
-![image](./timetabler/basic-data.png)
+![image](basic-data.png)
 
 ## Configurações
 
-![image](./timetabler/configurações.png)
+![image](configurações.png)
 
 ## Check
 
-![image](./timetabler/check.png)
+![image](check.png)
 
 ## Atividades
 
-![image](./timetabler/atividades.png)
+![image](atividades.png)

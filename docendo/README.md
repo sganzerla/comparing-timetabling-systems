@@ -4,28 +4,28 @@ Aplicação Web, vídeos tutorial podem ser obtidos no [link](https://zen.docend
 
 ## Preços
 
-![image](./docendo/precos.png)
+![image](precos.png)
 
 ## Criando primeiro horário
 
-![image](./docendo/criando_primeiro_horario.png)
+![image](criando_primeiro_horario.png)
 
 ## Professores
 
-![image](./docendo/professores.png)
+![image](professores.png)
 
 ## Turmas
 
-![image](./docendo/turmas.png)
+![image](turmas.png)
 
 ## Configuração Horários
 
-![image](./docendo/config-horarios.png)
+![image](config-horarios.png)
 
 ## Disciplinas
 
-![image](./docendo/disciplinas.png)
+![image](disciplinas.png)
 
 ## Distribuição das Disciplinas
 
-![image](./docendo/disciplinas2.png)
+![image](disciplinas2.png)

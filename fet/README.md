@@ -4,27 +4,28 @@ Aplicação Desktop, aparentemente desenvolvido em C++. Manual de ajuda no [link
 
 ## Home - File
 
-![image](./fet/home.png)
+![image](home.png)
 
 ## Home - Data
 
-![image](./fet/data.png)
+![image](data.png)
 
 ## Home - Time
 
-![image](./fet/time.png)
+![image](time.png)
 
 ## Home - Space
 
-![image](./fet/space.png)
+![image](space.png)
 
 ## Home - Timetabling
 
-![image](./fet/timetabling.png)
+![image](timetabling.png)
 
 ## Planejamento de atividades
 
-![image](./fet/atividades.png)
+![image](atividades.png)
 
 ## Visão do horário - alunos
-![image](./fet/visao-aluno.png)
+
+![image](visao-aluno.png)

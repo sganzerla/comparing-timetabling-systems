@@ -4,28 +4,28 @@ Aplicação Desktop, aparentemente desenvolvida em Java. Playlist de 22 vídeos 
 
 ## Precificação
 
-![image](./ghc/precos.png)
+![image](precos.png)
 
 ## Tela de cadastro de professores
 
-![image](./ghc/teachers.png)
+![image](teachers.png)
 
 ## Tela de cadastro de professores - configuração inline
 
-![image](./ghc/teachers-config-inline.png)
+![image](teachers-config-inline.png)
 
 ## Tela de configurações avançadas
 
-![image](./ghc/teachers-config-advanced.png)
+![image](teachers-config-advanced.png)
 
 ## Configurações de pesos de opções
 
-![image](./ghc/config.png)
+![image](config.png)
 
 ## Imagem da grade - visão dos estudantes
 
-![image](./ghc/grade-students.png)
+![image](grade-students.png)
 
 ## Imagem da grade - visão dos professores
 
-![image](./ghc/grade-teacher.png)
+![image](grade-teacher.png)
