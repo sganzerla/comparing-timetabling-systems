@@ -14,14 +14,22 @@
 
 ## Screenshots
 
+### Preço
+
+![image](preco.png)
+
 ### Cadastrando currículo da turma
 
-![image](./cadastrando%20curricula%20da%20turma.png)
+![image](cadastrando%20curricula%20da%20turma.png)
 
 ### Restrições de professores
 
-![image](./professores%20configuracao.png)
+![image](professores%20configuracao.png)
 
 ### Grade curricular
 
-![image](./grade%20curricular.png)
+![image](grade%20curricular.png)
+
+### Unir Recursos
+
+![image](unir-recursos.png)

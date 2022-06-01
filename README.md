@@ -2,6 +2,7 @@
 
 ## OverView da Interface dos Sistemas de Horários Pesquisados
 
+- [Horário Fácil](horariofacil/README.md)
 - [TimeTabler](timetabler/README.md)
 - [Docendo](docendo/README.md)
 - [FET](fet/README.md)
